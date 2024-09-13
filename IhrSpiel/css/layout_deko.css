@@ -1,0 +1,102 @@
+﻿#spielfeld_dekoshop {
+  position: relative;
+  width: auto;
+  height: 700px;
+  background-image: url("../bilder/deko_background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pina {
+  position: absolute;
+  left: 153px;
+  top: 13px;
+  width: 350px;
+  height: 350px;
+}
+
+#tisch_deko {
+  width: 666px;
+  height: auto;
+  position: absolute;
+  left: 531px;
+  top: 220px;
+  z-index: 10;
+}
+
+#ballons_inside {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 397px;
+  top: 257px;
+  z-index: 10;
+}
+
+#ballonsInside_vid {
+  width: 300px;
+  height: auto;
+}
+
+#deko_seller {
+  z-index: 8;
+  position: absolute;
+  left: 750px;
+  top: 259px;
+}
+
+#dialog_bubble_deko {
+  position: absolute;
+  top: 188px;
+  left: 493px;
+  width: 310px;
+  height: 99px;
+  z-index: 200;
+  animation: 1.5s fadeInUp;
+  text-align: center;
+}
+
+#text_deko {
+  position: absolute;
+  top: 199px;
+  left: 508px;
+  width: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  animation: 1.5s fadeInUp;
+  z-index: 200;
+}
+
+#reply_deko {
+  width: 223px;
+  height: 85px;
+  position: absolute;
+  top: 293px;
+  left: 549px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  animation: 1.5s fadeInUp;
+  z-index: 200;
+  text-align: center;
+  background-color: rgb(200, 109, 136);
+  border-style: none;
+  cursor: pointer;
+  border-radius: 20%;
+  color: white;
+  padding-top: 5px;
+}
+
+#reply_deko:hover {
+  background-color: rgb(240, 156, 181);
+  color: black;
+}
+
+#schal {
+  z-index: 250;
+  width: 168px;
+  height: auto;
+  left: 236px;
+  top: 554px;
+  position: absolute;
+}

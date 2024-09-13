@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.38 175.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Memory">
+    <g>
+      <g>
+        <line class="cls-1" x1="154.31" y1="141.7" x2="262.31" y2="33.7"/>
+        <line class="cls-1" x1="154.31" y1="33.7" x2="262.31" y2="141.7"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="35.32 50.55 0 50.55 0 124.85 35.32 124.85 35.32 50.55 35.32 50.55"/>
+        <polygon class="cls-2" points="118.13 0 47.49 50.55 47.49 124.85 118.13 175.4 118.13 0 118.13 0"/>
+      </g>
+    </g>
+  </g>
+</svg>

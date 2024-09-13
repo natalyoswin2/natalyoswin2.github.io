@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 289.56 186.13">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-2" points="289.56 186.13 95.08 93.06 289.56 0 289.56 186.13"/>
+    </clipPath>
+  </defs>
+  <g id="Memory">
+    <g>
+      <polygon class="cls-3" points="35.32 55.91 0 55.91 0 130.21 35.32 130.21 35.32 55.91 35.32 55.91"/>
+      <polygon class="cls-3" points="118.13 5.36 47.49 55.91 47.49 130.21 118.13 180.77 118.13 5.36 118.13 5.36"/>
+      <g class="cls-4">
+        <path class="cls-1" d="M131.45,10.37c45.71,45.71,45.71,119.68,0,165.39"/>
+        <path class="cls-1" d="M173.32,10.37c45.71,45.71,45.71,119.68,0,165.39"/>
+        <path class="cls-1" d="M214.45,10.37c45.71,45.71,45.71,119.68,0,165.39"/>
+      </g>
+    </g>
+  </g>
+</svg>

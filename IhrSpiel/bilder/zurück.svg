@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 174.7 194.6">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+        stroke-width: 0px;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx=".28" dy=".28"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#bf6400" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ebene_2-2" data-name="Ebene 2" class="cls-1">
+    <polygon class="cls-2" points="19.18 79.2 19.18 194.6 64.37 194.6 64.37 136.9 110.33 136.9 110.33 194.6 155.52 194.6 155.52 79.2 19.18 79.2"/>
+    <polygon class="cls-2" points="87.35 0 0 102.54 174.7 102.54 87.35 0"/>
+  </g>
+</svg>

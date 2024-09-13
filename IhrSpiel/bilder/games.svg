@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 830.14 391.8">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #30632d;
+      }
+
+      .cls-3 {
+        fill: #d43f4a;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        font-size: 30.53px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #9fc95b;
+        font-family: PosterCutNeue-Regular, 'Poster Cut Neue';
+      }
+
+      .cls-7 {
+        fill: #4b9c46;
+      }
+
+      .cls-6 {
+        font-size: 23.25px;
+      }
+
+      .cls-8 {
+        fill: #47549c;
+      }
+
+      .cls-9 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-10 {
+        fill: #52ab4d;
+      }
+
+      .cls-11 {
+        fill: #be1622;
+      }
+
+      .cls-12 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-13 {
+        fill: #0c5e73;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        fill: #3d4885;
+      }
+
+      .cls-16 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-18 {
+        fill: none;
+        stroke: #6f84f5;
+        stroke-miterlimit: 10;
+        stroke-width: 1.32px;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        fill: #6f84f5;
+        font-family: Creepster-Regular, Creepster;
+        font-size: 32.62px;
+      }
+
+      .cls-21 {
+        fill: #edb245;
+        font-family: Alexandria-SemiBold, Alexandria;
+        font-size: 21.81px;
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.5" dy="-1.5"/>
+      <feGaussianBlur result="blur" stdDeviation="4.5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="background">
+    <g>
+      <g>
+        <rect class="cls-11" x="36.52" y="345.16" width="389.69" height="46.65"/>
+        <polygon class="cls-3" points="426.22 345.16 35.41 345.16 0 316.54 359.14 316.54 426.22 345.16"/>
+        <text class="cls-21" transform="translate(93.1 378.24)"><tspan x="0" y="0">Mensch ärgere dich nicht</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-15" x="36.52" y="290.77" width="349.9" height="47.32"/>
+        <polygon class="cls-8" points="4.88 273.2 340.07 273.2 386.42 290.77 30.28 290.77 4.88 273.2"/>
+        <text class="cls-20" transform="translate(158.1 327.51)"><tspan x="0" y="0">GEISTERJ</tspan><tspan class="cls-1" x="106.45" y="0">A</tspan><tspan class="cls-17" x="120.66" y="0">G</tspan><tspan class="cls-14" x="135.19" y="0">T</tspan></text>
+        <line class="cls-18" x1="41.82" y1="296.86" x2="386.42" y2="296.86"/>
+        <line class="cls-18" x1="41.82" y1="334.34" x2="386.42" y2="334.34"/>
+      </g>
+      <g>
+        <rect class="cls-7" x="63.29" y="242.33" width="296.09" height="40.43"/>
+        <polygon class="cls-2" points="25.03 223.17 63.29 243.91 63.29 282.76 25.03 258.83 25.03 223.17"/>
+        <polygon class="cls-10" points="25.03 223.17 301.16 223.17 359.38 242.33 60.37 242.33 25.03 223.17"/>
+        <text class="cls-5" transform="translate(148.64 273.01)"><tspan x="0" y="0">q</tspan><tspan class="cls-4" x="22.11" y="0">U</tspan><tspan class="cls-16" x="41.92" y="0">I</tspan><tspan class="cls-12" x="57.92" y="0">Z</tspan><tspan x="75.82" y="0">s</tspan><tspan class="cls-16" x="94.56" y="0">P</tspan><tspan class="cls-19" x="111.02" y="0">I</tspan><tspan x="127.42" y="0">EL</tspan></text>
+        <text class="cls-6" transform="translate(77.48 267.68)"><tspan x="0" y="0">???</tspan></text>
+        <text class="cls-6" transform="translate(317.36 274.44)"><tspan x="0" y="0">???</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="objekte">
+    <g id="objekte-2" data-name="objekte">
+      <g id="postcards" class="cls-9">
+        <circle class="cls-13" cx="826" cy="4.14" r="4.14"/>
+      </g>
+    </g>
+  </g>
+</svg>

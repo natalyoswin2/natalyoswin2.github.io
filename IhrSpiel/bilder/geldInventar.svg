@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375.83 375.83">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: .46;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 74.24px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        opacity: .33;
+      }
+
+      .cls-6 {
+        fill: #d1b934;
+      }
+
+      .cls-4 {
+        stroke: #bf8c00;
+        stroke-width: 19px;
+      }
+
+      .cls-5 {
+        opacity: .76;
+        stroke-width: 21.05px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="187.91" cy="187.91" r="187.91"/>
+    </clipPath>
+  </defs>
+  <g id="Ebene_26">
+    <g class="cls-7">
+      <circle class="cls-6" cx="187.91" cy="187.91" r="187.91"/>
+      <line class="cls-3" x1="9.29" y1="299.49" x2="302.68" y2="6.1"/>
+      <line class="cls-2" x1="97.98" y1="425.86" x2="391.37" y2="132.47"/>
+      <line class="cls-5" x1="-36.78" y1="247.21" x2="250.62" y2="-40.19"/>
+      <circle class="cls-4" cx="187.91" cy="187.91" r="128.97"/>
+    </g>
+  </g>
+</svg>

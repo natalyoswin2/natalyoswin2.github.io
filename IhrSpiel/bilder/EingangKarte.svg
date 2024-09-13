@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 494 920.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999485;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #cfcbc4;
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-3 {
+        fill: #998e8c;
+      }
+
+      .cls-4 {
+        fill: #d1bb9b;
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_14);
+      }
+
+      .cls-6 {
+        fill: #a8967d;
+        filter: url(#drop-shadow-4);
+        stroke: #696260;
+        stroke-width: .5px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        fill: #d1ccc3;
+        filter: url(#drop-shadow-2);
+        stroke: #a39a96;
+        stroke-width: .75px;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="0" y="0" width="494" height="920" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.83" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5.67"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="54.91" y="48.91" width="385" height="872" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.85" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5.7"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Unbenannter_Verlauf_14" data-name="Unbenannter Verlauf 14" x1="244.09" y1="383.43" x2="244.09" y2="96.95" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#6ca9bf"/>
+      <stop offset="1" stop-color="#4f98b3"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" x="83.5" y="434.5" width="64" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.83" dy="5.67"/>
+      <feGaussianBlur result="blur-3" stdDeviation="2.83"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-4" x="91.5" y="442.5" width="48" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.83" dy="5.67"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2.83"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ebene_2-2" data-name="Ebene_2">
+    <g>
+      <rect class="cls-1" x="14.31" y="17.22" width="459.57" height="885.45"/>
+      <rect class="cls-7" x="69.45" y="66.24" width="349.28" height="836.43"/>
+      <g>
+        <path class="cls-5" d="M260.57,383.43v-125.05h125.05v125.05h-125.05ZM102.57,383.43v-125.05h125.05v125.05h-125.05ZM260.57,222v-125.05h125.05v125.05h-125.05ZM102.57,222v-125.05h125.05v125.05h-125.05Z"/>
+        <path class="cls-3" d="M381.62,100.95v117.05h-117.05v-117.05h117.05M223.62,100.95v117.05h-117.05v-117.05h117.05M381.62,262.38v117.05h-117.05v-117.05h117.05M223.62,262.38v117.05h-117.05v-117.05h117.05M389.62,92.95h-133.05v133.05h133.05V92.95h0ZM231.62,92.95H98.57v133.05h133.05V92.95h0ZM389.62,254.38h-133.05v133.05h133.05v-133.05h0ZM231.62,254.38H98.57v133.05h133.05v-133.05h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="89.52" y="437.99" width="46.32" height="96.51"/>
+        <circle class="cls-6" cx="112.68" cy="459.94" r="14.3"/>
+        <ellipse class="cls-4" cx="112.68" cy="454.58" rx="7.16" ry="5.36"/>
+      </g>
+    </g>
+  </g>
+</svg>

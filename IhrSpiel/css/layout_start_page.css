@@ -1,0 +1,326 @@
+#start_page {
+  position: relative;
+}
+
+#backToMenu_button {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+#map {
+  display: none;
+}
+
+#start_page video {
+  margin-top: -50px;
+}
+
+#start_button {
+  position: absolute;
+  z-index: 20;
+  width: 200px;
+  height: auto;
+  left: 593px;
+  top: 612px;
+  cursor: pointer;
+}
+
+#start_button_dunk {
+  width: 200px;
+  height: auto;
+}
+
+#text_start_button {
+  position: absolute;
+  z-index: 33;
+  padding: 10px 15px 10px 15px;
+  font-size: 60px;
+  font-family: Feijoada;
+  color: white;
+  top: -11px;
+  left: 24px;
+}
+
+#choose_page {
+  position: relative;
+  background-image: url("../bilder/Charakterauswahl.svg");
+  background-size: cover;
+  display: none;
+  height: 100vh;
+}
+
+#choose_natti {
+  width: 435px;
+  height: auto;
+  top: 158px;
+  position: absolute;
+  left: 297px;
+  z-index: 30;
+}
+#choose_paula {
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 225px;
+  left: 1060px;
+  z-index: 30;
+}
+
+#natti_auswahl_button {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  z-index: 30;
+  left: 108px;
+  top: 600px;
+}
+
+#paula_auswahl_button {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  z-index: 30;
+  left: 740px;
+  top: 600px;
+}
+
+#paula_frame {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 211px;
+  left: 1022px;
+  z-index: 20;
+  display: none;
+}
+
+#text_natti_auswahl {
+  width: 273px;
+  height: auto;
+  font-size: 27px;
+  font-family: Feijoada;
+  position: absolute;
+  left: 115px;
+  z-index: 30;
+  top: 250px;
+}
+
+#text_paula_auswahl {
+  width: 266px;
+  height: auto;
+  font-size: 27px;
+  font-family: Feijoada;
+  left: 751px;
+  position: absolute;
+  z-index: 30;
+  top: 250px;
+}
+.extra_style {
+  color: #d32986;
+}
+.drop-shadow {
+  -webkit-filter: drop-shadow(0px 0px 15px #fff);
+  filter: drop-shadow(0px 0px 15px #fff);
+}
+
+#scene_1,
+#scene_2,
+#scene_3,
+#scene_4,
+#natti_event,
+#paula_event {
+  display: none;
+}
+
+#guten_morgen_natti {
+  left: 950px;
+  top: 250px;
+  position: absolute;
+  z-index: 100;
+}
+
+#dialogWindow_scene_2 {
+  position: absolute;
+  left: -617px;
+  top: 255px;
+  word-wrap: break-word;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  z-index: 100;
+  animation: 1.5s fadeInUp;
+}
+
+#Bild_scene_2 {
+  width: 800px;
+  height: 185px;
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#text_scene_2 {
+  position: absolute;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: nunito;
+}
+
+#kalender_bild {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: 30;
+  left: 80px;
+  top: 172px;
+  cursor: pointer;
+}
+
+.scene_intro {
+  width: 1400px;
+  height: auto;
+  position: absolute;
+}
+
+#scene3_calender_natti {
+  left: 950px;
+  top: 250px;
+  position: absolute;
+  z-index: 100;
+}
+
+#dialogWindow_scene_3 {
+  position: absolute;
+  left: -729px;
+  top: 229px;
+  word-wrap: break-word;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  z-index: 100;
+  animation: 1.5s fadeInUp;
+}
+
+#Bild_scene_3 {
+  width: 821px;
+  height: 200px;
+}
+
+#text_scene_3 {
+  position: absolute;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: nunito;
+}
+
+#ja_helfen {
+  position: absolute;
+  width: 200px;
+  left: 692px;
+  top: 637px;
+  background-image: url(../bilder/button_dunk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  text-align: center;
+  background-position: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 800;
+  animation: 1.5s fadeInUp;
+}
+#ja_helfen:hover {
+  background-image: url(../bilder/button_hell.png);
+  color: black;
+}
+
+.lets_go {
+  position: absolute;
+  width: 200px;
+  left: 692px;
+  top: 627px;
+  background-image: url(../bilder/button_dunk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 13px;
+  text-align: center;
+  background-position: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 800;
+  animation: 1.5s fadeInUp;
+}
+.lets_go:hover {
+  background-image: url(../bilder/button_hell.png);
+  color: black;
+}
+
+#dialogWindow_scene_4 {
+  position: absolute;
+  left: -641px;
+  top: 229px;
+  word-wrap: break-word;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  z-index: 100;
+  animation: 1.5s fadeInUp;
+}
+
+#Bild_scene_4 {
+  width: 821px;
+  height: 200px;
+}
+
+#text_scene_4 {
+  position: absolute;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: nunito;
+}
+
+#toDo_liste {
+  position: absolute;
+  width: 650px;
+  height: auto;
+  left: 356px;
+  top: -133px;
+  z-index: 800;
+}
+
+#scene4_to_do_natti {
+  left: 950px;
+  top: 250px;
+  position: absolute;
+  z-index: 100;
+}

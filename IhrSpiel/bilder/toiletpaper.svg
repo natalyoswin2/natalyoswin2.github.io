@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 225.42 123.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0e9dd;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-3 {
+        fill: #524f4b;
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_689);
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_689-2);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Unbenannter_Verlauf_689" data-name="Unbenannter Verlauf 689" x1="112.21" y1="81.18" x2="192.69" y2="4.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b29f77"/>
+      <stop offset="0" stop-color="#b29f77"/>
+      <stop offset=".1" stop-color="#c8b99b"/>
+      <stop offset=".2" stop-color="#d9ceb8"/>
+      <stop offset=".31" stop-color="#e6ddcc"/>
+      <stop offset=".41" stop-color="#ede6d8"/>
+      <stop offset=".51" stop-color="#f0e9dd"/>
+      <stop offset=".6" stop-color="#ede5d8"/>
+      <stop offset=".7" stop-color="#e5dccc"/>
+      <stop offset=".8" stop-color="#d9cdb7"/>
+      <stop offset=".9" stop-color="#c7b89a"/>
+      <stop offset="1" stop-color="#b29f77"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Unbenannter_Verlauf_689-2" data-name="Unbenannter Verlauf 689" x1="15.47" y1="75.79" x2="95.34" y2="3.17" xlink:href="#Unbenannter_Verlauf_689"/>
+  </defs>
+  <g id="objekte">
+    <g id="objekte-2" data-name="objekte">
+      <g>
+        <g class="cls-4">
+          <path class="cls-5" d="M192.96,61.21l19.5-17.46-29.88-28.81c-1.2-1.28-2.45-2.5-3.78-3.64l-.25-.24h0c-8.16-6.88-18.68-11.04-30.2-11.04-25.89,0-46.87,20.98-46.87,46.87,0,11.03,3.84,21.15,10.21,29.16h0s.05.05.05.05c2.42,3.03,5.22,5.73,8.3,8.08l22.67,22.06,14.97-13.41c16.69-3.37,30.16-15.62,35.29-31.6Z"/>
+          <circle class="cls-1" cx="178.55" cy="76.03" r="46.87"/>
+          <circle class="cls-3" cx="178.55" cy="76.03" r="14.2"/>
+        </g>
+        <g class="cls-2">
+          <path class="cls-6" d="M107.95,52.24l-21.12-29.39c-1.27-2.08-2.68-4.07-4.25-5.92h0s0-.01,0-.01C73.97,6.82,61.18.39,46.87.39,20.98.39,0,21.37,0,47.26c0,7.51,1.81,14.59,4.95,20.88l-.35.23,1.73,2.34c1.71,2.96,3.74,5.7,6.04,8.2l15.55,21.1,11.06-6.6c2.57.44,5.2.72,7.89.72,20.65,0,38.15-13.37,44.39-31.92l16.69-9.96Z"/>
+          <circle class="cls-1" cx="68.38" cy="76.42" r="46.87"/>
+          <circle class="cls-3" cx="68.38" cy="76.42" r="14.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

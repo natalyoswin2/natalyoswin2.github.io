@@ -1,0 +1,214 @@
+﻿#Minispiel_memory {
+  background-color: rgb(186, 213, 226);
+  position: relative;
+  width: 1400px;
+  height: 700px;
+  overflow: hidden; /* Ensures no scrollbars appear */
+  font-family: Feijoada;
+  display: none;
+}
+
+.karte {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.reihe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Punkteanzeige_memory {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-size: 18pt;
+}
+
+#Ueberschrift_memory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  position: relative;
+}
+
+#kuchen {
+  display: none;
+  height: 55%;
+  margin: auto;
+  z-index: 2;
+  position: absolute;
+  left: 35%;
+  top: 29%;
+  z-index: 60;
+}
+
+#konfetti_memory,
+#konfetti2_memory,
+#konfetti3_memory,
+#konfetti4_memory {
+  display: none;
+  margin: auto;
+  z-index: 1;
+  position: absolute;
+  width: 100%; /* Adjust the width as needed */
+  animation: scrollDown 10s linear infinite;
+  z-index: 70;
+}
+
+#konfetti_memory,
+#konfetti2_memory {
+  z-index: 2;
+}
+
+#konfetti3_memory,
+#konfetti4_memory {
+  animation: scrollDown 15s linear infinite;
+  transform: rotateY(180deg);
+}
+
+#konfetti2_memory {
+  top: -860.133px;
+  animation-delay: 5s;
+}
+
+#konfetti4_memory {
+  top: -860.133px;
+  animation-delay: 7.5s;
+}
+
+@keyframes scrollDown {
+  0% {
+    top: -860.133px; /* Start position */
+  }
+  100% {
+    top: 700px; /* End position */
+  }
+}
+
+/* #nochmal_memory {
+  text-align: center;
+  font-size: 33px;
+  display: none;
+  font-family: Feijoada;
+  color: white;
+  padding: 2px;
+  padding-top: 11px;
+  z-index: 150;
+  position: absolute;
+  top: 620px;
+  left: 627px;
+  height: 51px;
+  width: 164px;
+  border-radius: 15%;
+  background-color: rgb(200, 109, 136);
+  border-style: none;
+  cursor: pointer;
+}
+
+#nochmal_memory:hover {
+  background-color: #d498bc;
+  color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+}
+ */
+#tisch_memory {
+  position: absolute;
+  display: none;
+  top: 57%;
+  z-index: 60;
+}
+
+@font-face {
+  font-family: Feijoada;
+  src: url(../fonts/Feijoada-qZjxl.ttf);
+}
+
+#herd {
+  width: 7%;
+  z-index: 10;
+  position: absolute;
+  top: 46%;
+  right: 28%;
+  cursor: pointer;
+  animation: tilt-n-move-shaking 0.5s linear infinite;
+}
+#ofen {
+  width: 9.5%;
+  z-index: 10;
+  position: absolute;
+  top: 33.5%;
+  right: 66%;
+  cursor: pointer;
+}
+
+.kueche {
+  display: block;
+}
+
+#kerze {
+  display: none;
+  position: absolute;
+  top: 19%;
+  height: 100%;
+  z-index: 65;
+}
+#kerze1 {
+  display: none;
+  height: 150px;
+  position: absolute;
+  top: -1%;
+  left: 500px;
+}
+#kerze2 {
+  display: none;
+  height: 150px;
+  position: absolute;
+  top: -3%;
+  left: 550px;
+}
+#kerze3 {
+  display: none;
+  height: 150px;
+  position: absolute;
+  top: 1%;
+  left: 600px;
+}
+#kerze4 {
+  display: none;
+  height: 150px;
+  position: absolute;
+  top: -3%;
+  left: 650px;
+}
+#kerze5 {
+  display: none;
+  height: 150px;
+  position: absolute;
+  top: -1%;
+  left: 700px;
+}
+
+#stove {
+  position: absolute;
+  z-index: 9;
+  width: 100px;
+  height: auto;
+  top: 268px;
+  left: 943px;
+
+}
+#kueche {
+  height: 700px;
+  width: 1400px;
+}
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(2px, 2px) rotate(3deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-2px, 2px) rotate(-3deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}

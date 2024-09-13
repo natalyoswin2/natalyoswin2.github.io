@@ -1,0 +1,142 @@
+/* Common styles */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+/* To-do list styles */
+#todolist {
+  border: 9px solid rgb(233, 160, 81);
+  background-color: rgb(248, 242, 215);
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  z-index: 5;
+}
+
+#todolist ul {
+list-style: none;
+margin-left: -25px;
+}
+
+#todo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.todolist li {
+  margin-bottom: 5px;
+}
+
+.todolist li img {
+  width: 14px;
+  margin-right: 10px;
+}
+
+/* Sound button styles */
+#sound {
+  position: absolute;
+  left: 7%;
+  top: 26px;
+  width: 30px;
+  height: 31px;
+  background-color: rgb(200, 109, 136);
+  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  z-index: 99;
+}
+
+#sound img {
+  width: 100%;
+}
+
+/* Weiter button styles */
+#weiter_button {
+  text-align: center;
+  font-size: 33px;
+  display: none;
+  font-family: 'Feijoada', sans-serif;
+  color: white;
+  padding: 2px;
+  padding-top: 11px;
+  position: absolute;
+  top: 620px;
+  left: 627px;
+  height: 51px;
+  width: 164px;
+  border-radius: 15%;
+  background-color: rgb(200, 109, 136);
+  border-style: none;
+  cursor: pointer;
+  z-index: 150;
+}
+
+#weiter_button:hover {
+  background-color: #d498bc;
+  color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+}
+
+/* Inventory list styles */
+#inventarlist {
+  border: 9px solid rgb(200, 109, 136);
+  background-color: rgb(245, 245, 245);
+  position: absolute;
+  top: 78%;
+  left: 2%;
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  z-index: 5;
+  list-style: none;
+  flex-direction: column;
+  display: none;
+}
+
+.inventarlist {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.inventarlist li {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inventarlist li img {
+  width: 30px;
+  height: 30px; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+
+
+.inventarlist ul {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+#inventarh2 {
+  margin: 0px;
+}
+#inventarLeer{
+  display: block;
+}

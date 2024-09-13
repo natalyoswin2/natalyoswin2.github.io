@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 257">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_205-7);
+        filter: url(#drop-shadow-8);
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_205-3);
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_205-4);
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_205-8);
+        filter: url(#drop-shadow-9);
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_205-6);
+        filter: url(#drop-shadow-7);
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_205-5);
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-8 {
+        fill: url(#Unbenannter_Verlauf_205);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-9 {
+        fill: url(#Unbenannter_Verlauf_205-2);
+        filter: url(#drop-shadow-3);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur" stdDeviation="15.01"/>
+      <feFlood flood-color="#a87e5d" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205" data-name="Unbenannter Verlauf 205" cx="118.83" cy="85.42" fx="118.83" fy="85.42" r="89.72" gradientTransform="translate(7.31 38.19) rotate(11.81) scale(1 .27)" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#e6e6e6"/>
+      <stop offset=".5" stop-color="#e4e4e4"/>
+      <stop offset=".6" stop-color="#ddd"/>
+      <stop offset=".67" stop-color="#d1d1d1"/>
+      <stop offset=".73" stop-color="silver"/>
+      <stop offset=".77" stop-color="#aaa"/>
+      <stop offset=".81" stop-color="#949494"/>
+      <stop offset=".82" stop-color="#aaa"/>
+      <stop offset=".84" stop-color="silver"/>
+      <stop offset=".86" stop-color="#d1d1d1"/>
+      <stop offset=".88" stop-color="#ddd"/>
+      <stop offset=".91" stop-color="#e4e4e4"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </radialGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-2" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-2" data-name="Unbenannter Verlauf 205" cx="120.71" cy="78.55" fx="120.71" fy="78.55" r="86.36" gradientTransform="translate(6.96 32.78) rotate(11.81) scale(1 .27)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-3" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-3" data-name="Unbenannter Verlauf 205" cx="122.73" cy="73.22" fx="122.73" fy="73.22" r="89.39" gradientTransform="translate(6.7 28.47) rotate(11.81) scale(1 .27)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-4" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-4" data-name="Unbenannter Verlauf 205" cx="123.19" cy="61.89" fx="123.19" fy="61.89" r="98.88" gradientTransform="translate(6.08 20.07) rotate(11.81) scale(1 .27)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-5" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-5" data-name="Unbenannter Verlauf 205" cx="235.83" cy="160.51" fx="235.83" fy="160.51" r="100.94" gradientTransform="translate(20.65 52.91) rotate(15.16) scale(1 .3)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-6" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-6" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-6" data-name="Unbenannter Verlauf 205" cx="238.87" cy="152.99" fx="238.87" fy="152.99" r="105.9" gradientTransform="translate(20.17 46.75) rotate(15.16) scale(1 .3)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-7" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-7" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-7" data-name="Unbenannter Verlauf 205" cx="241.27" cy="154.57" fx="241.27" fy="154.57" r="94.1" gradientTransform="translate(20.38 47.25) rotate(15.16) scale(1 .3)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-8" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-8" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_205-8" data-name="Unbenannter Verlauf 205" cx="227.42" cy="140.42" fx="227.42" fy="140.42" r="96.9" gradientTransform="translate(12.69 56.21) rotate(11.81) scale(1 .27)" xlink:href="#Unbenannter_Verlauf_205"/>
+    <filter id="drop-shadow-9" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur-9" stdDeviation="15.01"/>
+      <feFlood flood-color="#7f4b0d" flood-opacity=".75"/>
+      <feComposite in2="blur-9" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="background">
+    <g id="Regal" class="cls-4">
+      <g>
+        <g>
+          <path class="cls-8" d="M44.67,84.06c22.44,16.8,75.36,31.07,117.12,31.07s53.36-14.27,27.17-31.07c-24.89-15.97-75.07-28.35-113.17-28.35-38.1,0-52.45,12.38-31.12,28.35Z"/>
+          <path class="cls-9" d="M49.33,77.3c21.71,16,72.68,29.57,112.84,29.57s51.35-13.57,26.16-29.57c-23.99-15.24-72.41-27.07-109.17-27.07s-50.51,11.83-29.83,27.07Z"/>
+          <path class="cls-2" d="M48.75,71.89c22.48,16.44,75.35,30.4,116.99,30.4s53.14-13.97,26.92-30.4c-24.92-15.63-75.05-27.74-113.05-27.74s-52.24,12.12-30.86,27.74Z"/>
+          <path class="cls-3" d="M40.98,60.28c24.76,17.93,83.51,33.24,129.89,33.24s58.92-15.31,29.57-33.24c-27.75-16.95-83.14-30.04-125.05-30.04s-57.82,13.08-34.41,30.04Z"/>
+        </g>
+        <g>
+          <path class="cls-7" d="M153.78,158.67c27.86,20.65,89.03,38.28,135.15,38.28s55.86-17.63,23.46-38.28c-30.64-19.53-88.09-34.61-129.79-34.61s-55.17,15.07-28.82,34.61Z"/>
+          <path class="cls-6" d="M319.07,150.99c34.26,21.48,24.23,39.86-24.31,39.86-48.54,0-112.92-18.38-142.17-39.86-27.58-20.26-13.42-35.85,30.24-35.85s103.93,15.6,136.24,35.85Z"/>
+          <path class="cls-1" d="M164.96,152.99c26.21,19.06,83.23,35.27,126.07,35.27s51.92-16.21,21.77-35.27c-28.62-18.1-82.39-32.11-121.38-32.11s-51.33,14.01-26.45,32.11Z"/>
+          <path class="cls-5" d="M149.88,138.82c26.23,18.99,83.87,35.15,127.42,35.15s53.07-16.16,22.77-35.15c-28.74-18.01-83.07-31.95-122.65-31.95s-52.42,13.94-27.54,31.95Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

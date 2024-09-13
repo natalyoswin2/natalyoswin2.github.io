@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544.03 1191.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c99751;
+      }
+
+      .cls-2 {
+        fill: #5a461e;
+      }
+
+      .cls-3 {
+        fill: #d99c50;
+      }
+
+      .cls-4 {
+        fill: #795e29;
+      }
+
+      .cls-5 {
+        fill: #927132;
+      }
+
+      .cls-6 {
+        fill: #946b38;
+      }
+    </style>
+  </defs>
+  <g id="background">
+    <g id="regal3">
+      <g>
+        <polygon class="cls-6" points="452.22 31.87 14.02 31.87 42.61 10.24 510.95 10.24 452.22 31.87"/>
+        <polygon class="cls-1" points="438.7 500.24 0 500.24 42.61 516.57 527.85 516.57 438.7 500.24"/>
+        <polygon class="cls-6" points="468.04 157.16 18.59 157.16 42.61 146.34 517.76 146.34 468.04 157.16"/>
+        <polygon class="cls-1" points="437.35 725.01 4.88 725.01 42.61 760.16 515.22 760.16 437.35 725.01"/>
+        <polygon class="cls-1" points="448.16 897.12 5.9 897.12 42.61 946.74 524.72 946.74 448.16 897.12"/>
+        <polygon class="cls-1" points="466.18 1074.73 6.04 1074.73 42.61 1140.08 544.03 1140.08 466.18 1074.73"/>
+      </g>
+      <g>
+        <rect class="cls-3" x="42.61" y="1140.08" width="475.91" height="51.38"/>
+        <rect class="cls-3" x="42.61" width="475.91" height="10.24"/>
+        <rect class="cls-3" x="42.61" y="136.55" width="475.91" height="9.79"/>
+        <rect class="cls-3" x="42.61" y="516.57" width="475.91" height="10.72"/>
+        <rect class="cls-3" x="42.61" y="760.16" width="475.91" height="11.17"/>
+        <rect class="cls-3" x="42.61" y="946.74" width="475.91" height="10.49"/>
+      </g>
+      <g>
+        <rect class="cls-4" x="228.23" y="818.65" width="278.52" height="121.3"/>
+        <polygon class="cls-5" points="184.13 783.97 450.82 783.97 506.75 818.65 222.56 818.65 184.13 783.97"/>
+        <polygon class="cls-2" points="184.13 783.97 228.23 817.53 228.23 939.96 184.13 898.07 184.13 783.97"/>
+      </g>
+    </g>
+  </g>
+</svg>

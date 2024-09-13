@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 176.13 224.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_235-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-1, .cls-3, .cls-6 {
+        stroke-width: 1.47px;
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_235);
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_201);
+        stroke-width: 5.9px;
+      }
+
+      .cls-8 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_213);
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        fill: url(#Unbenannter_Verlauf_201-2);
+        stroke-width: 4.42px;
+      }
+
+      .cls-5 {
+        fill: #1d1d1b;
+        stroke-width: 5.27px;
+      }
+
+      .cls-9 {
+        fill: #292929;
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_201-3);
+        stroke: url(#Unbenannter_Verlauf_219);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="15.01"/>
+      <feFlood flood-color="#a87e5d" flood-opacity="1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Unbenannter_Verlauf_201" data-name="Unbenannter Verlauf 201" x1="95.9" y1="80.74" x2="95.9" y2="210.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2c2c2"/>
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".55" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_201-2" data-name="Unbenannter Verlauf 201" x1="95.9" y1="184.61" x2="95.9" y2="106.33" xlink:href="#Unbenannter_Verlauf_201"/>
+    <linearGradient id="Unbenannter_Verlauf_213" data-name="Unbenannter Verlauf 213" x1="95.9" y1="112.35" x2="95.9" y2="178.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2c2c2"/>
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".55" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_201-3" data-name="Unbenannter Verlauf 201" y1="123.39" x2="95.9" y2="167.55" xlink:href="#Unbenannter_Verlauf_201"/>
+    <linearGradient id="Unbenannter_Verlauf_219" data-name="Unbenannter Verlauf 219" x1="95.9" y1="168.29" x2="95.9" y2="122.66" gradientUnits="userSpaceOnUse">
+      <stop offset=".07" stop-color="#bcbcbc" stop-opacity=".93"/>
+      <stop offset="1" stop-color="#707070" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_235" data-name="Unbenannter Verlauf 235" x1="95.9" y1="16" x2="95.9" y2="60.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2c2c2"/>
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".55" stop-color="#4a4a4a"/>
+      <stop offset=".75" stop-color="#707070"/>
+      <stop offset="1" stop-color="#e3e3e3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_235-2" data-name="Unbenannter Verlauf 235" y1="48.62" y2="27.54" xlink:href="#Unbenannter_Verlauf_235"/>
+  </defs>
+  <g id="objekte">
+    <g id="objekte-2" data-name="objekte">
+      <g id="MusikBox" class="cls-8">
+        <polygon class="cls-5" points="2.63 215.35 18.62 220.24 18.62 2.95 2.63 4.67 2.63 215.35"/>
+        <g>
+          <rect class="cls-9" x="18.62" y="2.95" width="154.56" height="218.79" rx="1.19" ry="1.19"/>
+          <image width="161" height="225" transform="translate(15.53 -.03)" xlink:href="data:image/png;base64,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"/>
+        </g>
+        <circle class="cls-2" cx="95.9" cy="145.47" r="64.73"/>
+        <circle class="cls-4" cx="95.9" cy="145.47" r="39.14"/>
+        <circle class="cls-3" cx="95.9" cy="145.47" r="33.12"/>
+        <circle class="cls-6" cx="95.9" cy="145.47" r="22.08"/>
+        <circle class="cls-7" cx="95.9" cy="38.08" r="22.08"/>
+        <circle class="cls-1" cx="95.9" cy="38.08" r="10.54"/>
+      </g>
+    </g>
+  </g>
+</svg>

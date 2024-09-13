@@ -1,0 +1,90 @@
+
+#haus_eingang {
+	background-color: rgb(186, 213, 226);
+	position: relative;
+	width: 1400px;
+	height: 700px;
+	overflow: hidden; /* Ensures no scrollbars appear */
+	font-family: Feijoada;
+	display: none;
+  }
+
+#memory_start {
+    width: 120px;
+    z-index: 1;
+    position: absolute;
+    left: 23%;
+    top: -7%;
+}
+
+#keller_start {
+	position: absolute;
+    left: 68.3%;
+    width: 229px;
+    z-index: 1;
+    top: -9%;
+}
+
+#eingangHaus {
+	width: 1400px;
+	height: 700px;
+	position: absolute;
+}
+
+#eingangLampe {
+	width: 73px;
+    z-index: 2;
+    position: absolute;
+    left: 47.2%;
+    top: -3%;
+}
+
+#eingangKarte {
+	width: 178px;
+    z-index: 1;
+    position: absolute;
+    left: 43.4%;
+    top: 27%;
+}
+
+#keller_start:hover,
+#memory_start:hover,
+#eingangKarte:hover,
+.eingangsign {
+  cursor: pointer;
+}
+
+#eingangkuechesign {
+left: 25%;
+top: 50%;
+
+}
+#eingangkellersign {
+  left: 71%;
+  top: 50%;
+}
+.eingangsign {
+  position: absolute;
+ color: white;
+  padding: 10px;
+  z-index: 4;
+  border-radius: 10px;
+  background-color: rgb(200, 109, 136);
+}
+.eingangsign:hover {
+  background-color: rgb(240, 156, 181);
+  color: black;
+}
+#eingangkuechesign img {
+  height: 15px;
+  position: relative;
+  top: 3px;
+  padding-right: 7px;
+  }
+#eingangkellersign img {
+  height: 15px;
+  rotate: 180deg;
+  position: relative;
+  top: 3px;
+  padding-right: 7px;
+}

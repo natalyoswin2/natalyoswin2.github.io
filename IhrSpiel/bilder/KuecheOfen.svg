@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 61.2 57.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_26);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #c5a886;
+      }
+
+      .cls-4 {
+        fill: #1d1d1b;
+      }
+
+      .cls-5 {
+        fill: #7b7261;
+      }
+
+      .cls-6 {
+        fill: #dadada;
+      }
+
+      .cls-7 {
+        fill: #c9ab85;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-2" points="54.2 46.48 13.31 47.62 13.31 19.7 54.2 19.91 54.2 46.48"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_26" data-name="Unbenannter Verlauf 26" x1="32.95" y1="7.84" x2="32.89" y2="11.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#828282"/>
+      <stop offset=".5" stop-color="#f5f0e8"/>
+      <stop offset="1" stop-color="#7b7b7b"/>
+    </linearGradient>
+  </defs>
+  <g id="Ebene_1_Kopie">
+    <g>
+      <polygon class="cls-4" points="4.65 57.72 61.2 55.49 61.2 1.59 4.65 0 4.65 57.72"/>
+      <path class="cls-6" d="M57.53,16.81l-45.1-.4c-.13,0-.24-.11-.24-.24v-1c0-.13.11-.24.24-.24l45.09.48v1.4Z"/>
+      <polygon class="cls-6" points="37.09 50.37 31.2 50.55 31.2 49.37 37.09 49.18 37.09 50.37"/>
+      <g class="cls-8">
+        <polygon class="cls-5" points="0 45.86 13.31 47.62 54.2 46.48 38.58 44.88 0 45.86"/>
+        <polygon class="cls-3" points="0 18.25 38.58 18.51 38.58 44.88 0 45.86 0 18.25"/>
+        <polygon class="cls-7" points="54.2 18.25 38.58 18.66 38.58 44.88 54.2 46.48 54.2 18.25"/>
+      </g>
+      <polygon class="cls-1" points="61.2 11.87 4.65 11.01 4.65 7.84 61.2 8.91 61.2 11.87"/>
+    </g>
+  </g>
+</svg>

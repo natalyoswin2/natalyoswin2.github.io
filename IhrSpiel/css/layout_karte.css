@@ -1,0 +1,306 @@
+#karte_img {
+  width: 5000px;
+  position: absolute;
+  z-index: 3;
+  top: -75px;
+}
+#win {
+  position: absolute;
+  z-index: 99;
+  left: 0%;
+  bottom: 3%;
+}
+#character_walk {
+  position: absolute;
+  z-index: 15;
+  width: 300px;
+  top: 452px;
+  left: 600px;
+}
+
+#character_walkImg {
+  width: 200px;
+  height: auto;
+}
+
+#deko_house {
+  position: absolute;
+  width: 954px;
+  height: auto;
+  top: -14px;
+  left: 66px;
+  cursor: pointer;
+}
+
+#markt_house {
+  position: absolute;
+  width: 330px;
+  height: auto;
+  top: 142px;
+  left: 4220px;
+  cursor: pointer;
+}
+
+#garden_house {
+  position: absolute;
+  width: 697px;
+  height: auto;
+  top: 145px;
+  left: 1133px;
+  cursor: pointer;
+}
+#house_farm {
+  position: absolute;
+  width: 758px;
+  height: auto;
+  top: -24px;
+  left: 2098px;
+  cursor: pointer;
+}
+
+#house_post {
+  position: absolute;
+  width: 1350px;
+  height: auto;
+  top: -315px;
+  left: 2874px;
+  cursor: pointer;
+}
+
+#herr_Bröckelmann {
+  position: absolute;
+  width: 296px;
+  height: auto;
+  top: 283px;
+  left: 4610px;
+  cursor: pointer;
+}
+
+#wolken_svg {
+  position: absolute;
+  width: 9000px;
+  height: auto;
+  top: 10px;
+  left: -8240px;
+  animation: fly_wolken 170s linear infinite;
+  z-index: 0;
+}
+
+#wolken_svg2 {
+  position: absolute;
+  width: 9000px;
+  height: auto;
+
+  animation: fly_wolken 170s linear infinite;
+  animation-delay: 185s;
+  left: -8240px;
+  top: 0px;
+  z-index: 0;
+}
+
+@keyframes fly_wolken {
+  0% {
+    left: -824px; /* Start position 80 */
+    top: 0px;
+  }
+  100% {
+    left: 824px; /* Start position */
+    top: 0px; /* End position */
+  }
+}
+
+#may {
+  position: absolute;
+  width: 46px;
+  height: auto;
+  top: 416px;
+  left: 2464px;
+  z-index: 10;
+  display: none;
+}
+#lui {
+  position: absolute;
+  width: 43px;
+  height: auto;
+  top: 357px;
+  left: 2361px;
+  z-index: 10;
+  display: none;
+}
+
+#party_button {
+  position: absolute;
+  z-index: 1000;
+  top: 50px;
+  left: 460px;
+  display: none;
+  cursor: pointer;
+}
+
+#wolken {
+  position: absolute;
+  top: 0;
+  z-index: 0; /* Vor Layer 2, damit die Wolken sichtbar sind */
+  animation: scroll 5s linear infinite;
+}
+
+#karte {
+  position: absolute;
+  top: 0;
+  left: -1500px;
+  width: 4480px;
+  height: 100vh;
+  z-index: 3; /* Hauptkarte liegt hinter den Häusern, aber vor Layer 2 und 3 */
+}
+
+#karte_layer2 {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  width: 4480px;
+  z-index: 1; /* Layer 2 liegt hinter der Hauptkarte */
+}
+
+#karte_layer3 {
+  position: absolute;
+  top: -0%;
+  left: 0;
+  width: 4480px;
+  z-index: 0; /* Layer 3 liegt hinter Layer 2 */
+}
+
+.wolke {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  z-index: 0; /* Wolken liegen über allem */
+}
+
+.house {
+  position: absolute;
+  z-index: 4; /* Häuser liegen vor der Hauptkarte und Layer 2/3 */
+}
+
+#map {
+  height: 100vh;
+}
+
+#map_sky {
+  background-color: #bad4e0;
+  height: 100vh;
+}
+
+#sonne {
+  position: absolute;
+  left: 20%;
+  top: 7%;
+}
+#sonne_img {
+  height: 100px;
+}
+
+#comment_lost {
+  z-index: 280;
+  font-family: Feijoada;
+  font-size: 23px;
+  text-align: center;
+  top: 343px;
+  left: 4435px;
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  display: none;
+}
+
+#comment_lost_ja {
+  z-index: 250;
+  position: absolute;
+  top: 421px;
+  left: 4497px;
+  font-family: Feijoada;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background-color: rgb(185, 134, 180);
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: none;
+  width: 93px;
+}
+
+#comment_lost_ja:hover {
+  background-color: rgb(240, 156, 181);
+  color: black;
+}
+
+#comment_lost_png {
+  display: none;
+  z-index: 210;
+  position: absolute;
+  top: 323px;
+  left: 4421px;
+  width: 300px;
+  height: auto;
+}
+
+#instr_walking {
+  background-color: rgb(216 126 152);
+  z-index: 210;
+  position: absolute;
+  top: 222px;
+  left: 1939px;
+  width: 500px;
+  height: 221px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#alles_klar_button {
+  background-color: rgb(255, 255, 255);
+  z-index: 210;
+  position: absolute;
+  top: 435px;
+  left: 2315px;
+  width: 120px;
+  height: auto;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#alles_klar_button:hover {
+  background-color: rgb(240, 156, 181);
+  color: black;
+}
+#karte_herz {
+  width: 30px;
+  z-index: 50;
+  display: none;
+  position: absolute;
+  left: 55.1%;
+  top: 50%;
+  animation: karte_herz 3s;
+}
+
+@keyframes karte_herz {
+	0% {
+	opacity: 0%;
+	margin-top: 0px;
+	}
+	50% {
+	opacity: 100%;
+	}
+	100% {
+	opacity: 0%;
+	margin-top: -100px;
+	}
+	}

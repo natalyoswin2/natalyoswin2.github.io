@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 555.68 1903.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8a5a2a;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-3 {
+        fill: #9b672d;
+      }
+
+      .cls-4 {
+        fill: #a39381;
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_815-3);
+      }
+
+      .cls-6 {
+        stroke: #b2b2b2;
+        stroke-miterlimit: 10;
+        stroke-width: 2.65px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-8 {
+        fill: url(#Unbenannter_Verlauf_824);
+      }
+
+      .cls-9 {
+        fill: url(#Unbenannter_Verlauf_241);
+      }
+
+      .cls-10 {
+        fill: #e3dad1;
+      }
+
+      .cls-11 {
+        fill: url(#Unbenannter_Verlauf_6);
+      }
+
+      .cls-12 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-13 {
+        fill: #947332;
+      }
+
+      .cls-14 {
+        fill: url(#Unbenannter_Verlauf_815-2);
+      }
+
+      .cls-15 {
+        fill: #575757;
+      }
+
+      .cls-16 {
+        fill: #ada595;
+      }
+
+      .cls-17 {
+        fill: #dea051;
+      }
+
+      .cls-18 {
+        fill: #b38b3d;
+      }
+
+      .cls-19 {
+        fill: #4f4b44;
+      }
+
+      .cls-20 {
+        fill: url(#Unbenannter_Verlauf_824-3);
+      }
+
+      .cls-21 {
+        fill: #2e2d2b;
+      }
+
+      .cls-22 {
+        fill: url(#Unbenannter_Verlauf_824-2);
+      }
+
+      .cls-23 {
+        fill: #e0d5c0;
+      }
+
+      .cls-24 {
+        fill: #403d37;
+      }
+
+      .cls-25 {
+        fill: url(#Unbenannter_Verlauf_815);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="15.01" dy="15.01"/>
+      <feGaussianBlur result="blur" stdDeviation="15.01"/>
+      <feFlood flood-color="#a87e5d" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clippath">
+      <rect class="cls-7" y="34.8" width="555.68" height="1868.74"/>
+    </clipPath>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="15.01"/>
+      <feGaussianBlur result="blur-2" stdDeviation="15.01"/>
+      <feFlood flood-color="#844d15" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Unbenannter_Verlauf_6" data-name="Unbenannter Verlauf 6" x1="207.19" y1="1455.64" x2="256.84" y2="1389.08" gradientUnits="userSpaceOnUse">
+      <stop offset=".13" stop-color="#cc9e46"/>
+      <stop offset=".5" stop-color="#7a5f2a"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_241" data-name="Unbenannter Verlauf 241" x1="355.53" y1="1592.08" x2="446.34" y2="1481.74" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#948575"/>
+      <stop offset=".25" stop-color="#63594f"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_824" data-name="Unbenannter Verlauf 824" x1="130.69" y1="685.1" x2="222.97" y2="685.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#757575"/>
+      <stop offset=".03" stop-color="#878787"/>
+      <stop offset=".1" stop-color="#acacac"/>
+      <stop offset=".17" stop-color="#cacaca"/>
+      <stop offset=".24" stop-color="#e1e1e1"/>
+      <stop offset=".32" stop-color="#f2f2f2"/>
+      <stop offset=".41" stop-color="#fbfbfb"/>
+      <stop offset=".52" stop-color="#fff"/>
+      <stop offset=".62" stop-color="#fbfbfb"/>
+      <stop offset=".71" stop-color="#f0f0f0"/>
+      <stop offset=".79" stop-color="#dedede"/>
+      <stop offset=".87" stop-color="#c5c5c5"/>
+      <stop offset=".95" stop-color="#a5a5a5"/>
+      <stop offset="1" stop-color="#8c8c8c"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_815" data-name="Unbenannter Verlauf 815" x1="130.69" y1="636.28" x2="220.68" y2="636.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f4f4f"/>
+      <stop offset=".07" stop-color="#5f5f5f"/>
+      <stop offset=".21" stop-color="#7d7d7d"/>
+      <stop offset=".34" stop-color="#8f8f8f"/>
+      <stop offset=".43" stop-color="#969696"/>
+      <stop offset=".47" stop-color="#9d9d9d"/>
+      <stop offset=".52" stop-color="#b0b0b0"/>
+      <stop offset=".59" stop-color="#d0d0d0"/>
+      <stop offset=".67" stop-color="#fdfdfd"/>
+      <stop offset=".67" stop-color="#fff"/>
+      <stop offset="1" stop-color="#8c8c8c"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_824-2" data-name="Unbenannter Verlauf 824" x1="201.06" y1="687.99" x2="293.34" y2="687.99" xlink:href="#Unbenannter_Verlauf_824"/>
+    <linearGradient id="Unbenannter_Verlauf_815-2" data-name="Unbenannter Verlauf 815" x1="201.06" y1="639.17" x2="291.05" y2="639.17" xlink:href="#Unbenannter_Verlauf_815"/>
+    <linearGradient id="Unbenannter_Verlauf_824-3" data-name="Unbenannter Verlauf 824" x1="315.46" y1="681.91" x2="407.75" y2="681.91" xlink:href="#Unbenannter_Verlauf_824"/>
+    <linearGradient id="Unbenannter_Verlauf_815-3" data-name="Unbenannter Verlauf 815" x1="315.46" y1="633.09" x2="405.46" y2="633.09" xlink:href="#Unbenannter_Verlauf_815"/>
+  </defs>
+  <g id="background">
+    <g id="Regal" class="cls-12">
+      <g id="regal1">
+        <rect class="cls-1" x="97.06" y="165.94" width="154.13" height="1398.31"/>
+        <g>
+          <rect class="cls-19" x="176.83" y="105.46" width="56.51" height="104.11"/>
+          <rect class="cls-19" x="254.36" y="56.79" width="61.11" height="114.25"/>
+          <polygon class="cls-21" points="176.83 105.46 115.21 146.62 115.21 236.6 176.83 202.1 176.83 105.46"/>
+          <polygon class="cls-21" points="254.36 56.79 201.81 91.72 201.81 189.28 254.36 159.92 254.36 56.79"/>
+          <polygon class="cls-21" points="367.65 0 297.23 45.61 297.23 149.7 367.65 111.31 367.65 0"/>
+        </g>
+        <g class="cls-26">
+          <g class="cls-2">
+            <polygon class="cls-3" points="615.34 1186.27 413.03 1186.27 96.16 1051.07 241.8 1051.07 615.34 1186.27"/>
+            <polygon class="cls-3" points="613.53 1847.42 423.16 1847.42 106.97 1530.59 244.62 1530.59 613.53 1847.42"/>
+            <g>
+              <polygon class="cls-18" points="129.01 1379.52 223.65 1455.01 223.65 1623.4 129.01 1530.99 129.01 1379.52"/>
+              <rect class="cls-13" x="223.65" y="1455.01" width="118.98" height="173.28"/>
+              <polygon class="cls-11" points="342.63 1455.01 223.65 1455.01 129.01 1379.52 236.03 1379.52 342.63 1455.01"/>
+            </g>
+            <g>
+              <polygon class="cls-4" points="236.34 1487.85 372.65 1599.82 372.65 1774.31 236.34 1640.54 236.34 1487.85"/>
+              <polygon class="cls-9" points="554.44 1599.45 372.19 1599.45 236.34 1487.85 395.89 1487.85 554.44 1599.45"/>
+            </g>
+            <polygon class="cls-3" points="613.53 1554.03 409.28 1554.03 96.16 1317.87 243.7 1317.87 613.53 1554.03"/>
+            <g>
+              <polygon class="cls-23" points="218.91 258.85 118.64 306.41 118.64 454.73 218.91 424.93 218.91 258.85"/>
+              <rect class="cls-16" x="218.91" y="258.85" width="112.45" height="165.24"/>
+              <polygon class="cls-23" points="378.23 223.99 252.13 279.12 252.13 408.01 378.23 369.62 378.23 223.99"/>
+              <polygon class="cls-24" points="185.79 297.9 143.88 316.7 143.88 328.99 185.79 310.79 185.79 297.9"/>
+              <polygon class="cls-24" points="341.27 265.45 291.25 286.13 291.25 297.9 341.27 277.8 341.27 265.45"/>
+            </g>
+            <polygon class="cls-3" points="613.53 373.71 408.29 373.71 96.16 465.07 244.54 465.07 613.53 373.71"/>
+            <polygon class="cls-3" points="613.53 91.13 404.65 91.13 97.06 258.85 248.74 258.85 613.53 91.13"/>
+            <polygon class="cls-3" points="613.53 736.05 430.14 736.05 96.16 726.59 226.22 726.59 613.53 736.05"/>
+            <polygon class="cls-3" points="613.53 576.51 413.85 576.51 96.16 612.14 239.82 612.14 613.53 576.51"/>
+            <polygon class="cls-10" points="320.54 1663.65 261.05 1608.67 261.05 1571.96 320.54 1624.7 320.54 1663.65"/>
+            <line class="cls-6" x1="267.59" y1="1603.95" x2="310.18" y2="1642.85"/>
+            <line class="cls-6" x1="267.59" y1="1591.79" x2="304.5" y2="1625.03"/>
+          </g>
+        </g>
+        <g>
+          <path class="cls-8" d="M222.97,733.93h-92.28v-80.01c0-3.67,1.77-7.11,4.76-9.24l8.2-5.85,66.02-2.55,9.48,8.41c2.43,2.15,3.82,5.24,3.82,8.49v80.75Z"/>
+          <path class="cls-25" d="M220.67,638.75h0v-7.51l-89.98,1.88v7.51h.38c1.7.41,9.6.68,22.38.68,21.08,0,48.17-.73,60.81-1.65,4.56-.33,6.58-.64,6.4-.91Z"/>
+          <path class="cls-15" d="M214.27,632.23c-12.64.92-39.73,1.65-60.81,1.65s-29.01-.73-17.43-1.65c11.9-.95,39.76-1.73,61.92-1.73s29.32.79,16.33,1.73Z"/>
+        </g>
+        <g>
+          <path class="cls-22" d="M293.34,736.82h-92.28v-80.01c0-3.67,1.77-7.11,4.76-9.24l8.2-5.85,66.02-2.55,9.48,8.41c2.43,2.15,3.82,5.24,3.82,8.49v80.75Z"/>
+          <path class="cls-14" d="M291.04,641.65h0v-7.51l-89.98,1.88v7.51h.38c1.7.41,9.6.68,22.38.68,21.08,0,48.17-.73,60.81-1.65,4.56-.33,6.58-.64,6.4-.91Z"/>
+          <path class="cls-15" d="M284.64,635.12c-12.64.92-39.73,1.65-60.81,1.65s-29.01-.73-17.43-1.65,39.76-1.73,61.92-1.73,29.32.79,16.33,1.73Z"/>
+        </g>
+        <g>
+          <path class="cls-20" d="M407.75,730.73h-92.28v-80.01c0-3.67,1.77-7.11,4.76-9.24l8.2-5.85,66.02-2.55,9.48,8.41c2.43,2.15,3.82,5.24,3.82,8.49v80.75Z"/>
+          <path class="cls-5" d="M405.45,635.56h0v-7.51l-89.98,1.88v7.51h.38c1.7.41,9.6.68,22.38.68,21.08,0,48.17-.73,60.81-1.65,4.56-.33,6.58-.64,6.4-.91Z"/>
+          <path class="cls-15" d="M399.04,629.03c-12.64.92-39.73,1.65-60.81,1.65s-29.01-.73-17.43-1.65,39.76-1.73,61.92-1.73,29.32.79,16.33,1.73Z"/>
+        </g>
+        <g>
+          <polygon class="cls-17" points="424.25 1901.95 106.97 1569.19 106.97 1530.59 424.25 1848.51 424.25 1901.95"/>
+          <polygon class="cls-17" points="424.25 1590.08 96.16 1335.52 96.16 1317.87 424.25 1565.32 424.25 1590.08"/>
+          <polygon class="cls-17" points="440.47 1234.95 96.16 1077.05 96.16 1051.07 440.47 1197.98 440.47 1234.95"/>
+          <polygon class="cls-17" points="409.83 759.03 96.16 743.6 96.16 726.59 409.83 735.47 409.83 759.03"/>
+          <polygon class="cls-17" points="409.83 576.96 96.16 612.14 96.16 593.19 409.83 550.71 409.83 576.96"/>
+          <polygon class="cls-17" points="409.83 373.26 96.16 465.07 96.16 448.97 409.83 350.96 409.83 373.26"/>
+          <polygon class="cls-17" points="402.17 92.48 97.06 258.85 97.06 240.71 402.17 67.56 402.17 92.48"/>
+        </g>
+        <polygon class="cls-17" points="81.74 174.99 97.06 164.87 97.06 1564.25 81.74 1548.08 81.74 174.99"/>
+      </g>
+    </g>
+  </g>
+</svg>

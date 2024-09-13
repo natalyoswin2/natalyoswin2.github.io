@@ -1,0 +1,311 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+
+#Minispiel_Post {
+  background-color: rgb(186, 213, 226);
+  position: relative;
+  width: 1400px;
+  height: 700px;
+  overflow: hidden;
+  display: none;
+}
+
+#Punkteanzeige {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-size: 18pt;
+}
+
+#Ueberschrift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0%;
+  top: 2%;
+}
+
+#konfetti_post,
+#konfetti2_post,
+#konfetti3_post,
+#konfetti4_post {
+  display: none;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  animation: scrollDown 10s linear infinite;
+  z-index: 1;
+}
+
+#konfetti3_post,
+#konfetti4_post {
+  animation: scrollDown 15s linear infinite;
+  transform: rotateY(180deg);
+}
+
+#konfetti2_post {
+  top: -860.133px;
+  animation-delay: 5s;
+}
+
+#konfetti4_post {
+  top: -860.133px;
+  animation-delay: 7.5s;
+}
+
+@keyframes scrollDown {
+  0% {
+    top: -860.133px;
+  }
+  100% {
+    top: 700px;
+  }
+}
+#nochmal {
+  display: none;
+}
+
+button:hover,
+#Antwort1:hover,
+#Antwort2:hover,
+#Antwort3:hover {
+  background-color: #c43b1b;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#tisch {
+  position: absolute;
+  height: 56%;
+  top: 454px;
+  left: 8%;
+  z-index: 1;
+}
+#tisch:hover,
+#person:hover {
+  cursor: pointer;
+}
+#hintergrund {
+  height: 182vh;
+  position: absolute;
+  left: -33%;
+  top: -28%;
+  z-index: 0;
+}
+
+#quiz {
+  display: none;
+}
+
+#Frage {
+  width: 30%;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  background-color: #f9e112;
+  padding: 10px;
+  margin-left: -15%;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  z-index: 5;
+  font-family: "Freeman", sans-serif;
+}
+
+#Antworten {
+  flex-direction: row;
+  position: relative;
+  top: 25%;
+  display: flex;
+  z-index: 5;
+  justify-content: center;
+}
+
+#Antwort1,
+#Antwort2,
+#Antwort3 {
+  background-color: #ffffff;
+  font-size: 25px;
+  z-index: 5;
+  font-family: "Freeman", sans-serif;
+}
+
+#person {
+  position: absolute;
+  width: 10%;
+  height: 27%;
+  top: 30%;
+  right: 22%;
+  z-index: 10;
+}
+
+#dia_window {
+  position: relative;
+  width: 320px;
+  height: auto;
+}
+
+#seller_text_post {
+  position: absolute;
+  top: 0%;
+  z-index: 80;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px 15px 10px 15px;
+  width: 85%;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#dialogWindow_post {
+  animation: 1.5s fadeInUp;
+  position: absolute;
+  z-index: 80;
+  top: 18%;
+  left: 47%;
+  display: none;
+  border-radius: 20px;
+}
+
+#stift {
+  position: absolute;
+  top: 39%;
+  left: 7%;
+  height: 55%;
+  z-index: 3;
+}
+
+#stift2 {
+  position: absolute;
+  top: 63%;
+  left: 82%;
+  height: 55%;
+  z-index: 3;
+}
+
+#feedback {
+  position: relative;
+  right: 0%;
+  top: 30%;
+  text-align: center;
+  font-size: 18pt;
+  z-index: 5;
+}
+#fragentyp {
+  position: absolute;
+  right: 50%;
+  top: 18%;
+  text-align: center;
+  font-size: 18pt;
+  z-index: 5;
+  margin-right: -100px;
+  width: 200px;
+}
+
+#punkte {
+  width: 248px;
+  right: 2%;
+  position: absolute;
+  top: 2%;
+  z-index: 5;
+}
+
+#punkte2 {
+  width: 142px;
+  bottom: 5%;
+  left: 5%;
+  position: absolute;
+  z-index: 5;
+}
+
+#background {
+  animation: 1.5s fadeIn;
+  background-color: #f5f5f5;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 15%;
+  z-index: 2;
+  position: absolute;
+}
+
+#ui {
+  animation: 1.5s fadeInUp;
+  z-index: 5;
+  position: absolute;
+  width: 1400px;
+  height: 700px;
+}
+
+#karte_post {
+  height: 500px;
+  left: 26%;
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+}
+
+.ende {
+  display: none;
+}
+#bild {
+  height: 250px;
+  top: 12%;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  display: flex;
+}
+#bild img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+#buttons_post {
+  padding: 10px;
+  position: relative;
+  top: 90%;
+  display: flex;
+  z-index: 5;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#nochmalpfeil {
+  height: 1em;
+  padding-right: 10px;
+}

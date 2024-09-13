@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1275.62 1275.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_64);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx=".28" dy=".28"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#bf6400" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Unbenannter_Verlauf_64" data-name="Unbenannter Verlauf 64" cx="637.81" cy="637.81" fx="637.81" fy="637.81" r="637.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <g id="Ebene_2-2" data-name="Ebene 2" class="cls-2">
+    <path class="cls-1" d="M0,0v1275.62h1275.62V0H0ZM637.81,677.2c-21.75,0-39.39-17.64-39.39-39.39s17.64-39.39,39.39-39.39,39.39,17.64,39.39,39.39-17.64,39.39-39.39,39.39Z"/>
+  </g>
+</svg>

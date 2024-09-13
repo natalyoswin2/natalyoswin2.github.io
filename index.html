@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>b.i.b. International College - Lernspiele für die Grundschule</title>
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-position: center center;
+        background-color: #dbe1f1;
+      }
+
+      #spiel {
+        overflow: hidden;
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-origin: 0 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <iframe src="IhrSpiel/index.html" scrolling="no" id="spiel"></iframe>
+
+    <script src="IhrSpiel/js/jquery-3.3.1.min.js"></script>
+    <script>
+      /************ Hier können Sie die Breite und die Höhe Ihres Spiels festlegen ***************/
+      var breite = 1400;
+      var hoehe = 700;
+
+      function resizeThat(containerID, x, y) {
+        $("#" + containerID).css({
+          width: x + "px",
+          height: y + "px",
+        });
+
+        var ratio = window.innerWidth / window.innerHeight;
+
+        if (ratio > x / y) {
+          var scale = window.innerHeight / y;
+        } else {
+          var scale = window.innerWidth / x;
+        }
+
+        if (scale >= 1) scale = 1;
+
+        $("#" + containerID).css({
+          transform: "scale(" + scale + ") translate(-50%,-50%)",
+        });
+      }
+
+      $(window)
+        .on("resize", function () {
+          resizeThat("spiel", breite, hoehe);
+        })
+        .trigger("resize");
+    </script>
+  </body>
+</html>

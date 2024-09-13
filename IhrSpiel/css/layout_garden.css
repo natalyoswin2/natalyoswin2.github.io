@@ -1,0 +1,229 @@
+﻿body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  overflow: hidden;
+}
+
+#spielfeld_garden {
+  position: relative;
+  width: auto;
+  height: 700px;
+  background-image: url("../bilder/garden.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#basket {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 700px;
+  bottom: -40px;
+  width: 250px;
+  height: 250px;
+  z-index: 5;
+}
+
+#basket img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+#birne,
+#apfel,
+#aprikose,
+#pflaume,
+#cherry {
+  position: absolute;
+  height: 85px;
+  width: 85px;
+  border: 0;
+}
+
+#punktezaehler,
+#table_garden {
+  position: absolute;
+}
+
+@font-face {
+  font-family: Feijoada;
+  src: url(../fonts/Feijoada-qZjxl.ttf);
+}
+
+#table_garden {
+  background-color: aliceblue;
+  z-index: 1;
+  font-size: 35px;
+  font-family: Feijoada;
+  padding: 15px;
+  left: 1260px;
+  border-radius: 15%;
+  top: 10px;
+  width: 100px;
+}
+
+#text_garden,
+#nummber_of_fruits {
+  text-align: center;
+}
+
+#well_done {
+  top: 0;
+  position: absolute;
+  width: auto;
+  height: 700px;
+  display: none;
+}
+
+#background_wall {
+  position: absolute;
+  z-index: 20;
+  width: 3000px;
+  height: 700px;
+  left: -800px;
+}
+#basketOnTable {
+  position: absolute;
+  z-index: 30;
+  height: 700px;
+  width: 2500px;
+  bottom: -180px;
+  left: -500px;
+}
+
+#well {
+  width: 1200px;
+  top: 30px;
+  position: absolute;
+  font-family: Feijoada;
+  font-size: 100px;
+  z-index: 30;
+  color: white;
+  left: 550px;
+}
+
+#konfetti,
+#konfetti2,
+#konfetti3,
+#konfetti4 {
+  margin: 0;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 1450px; /* Adjust the width as needed */
+  animation: scrollDown 10s linear infinite;
+}
+
+#konfetti {
+  left: -200px;
+}
+#konfetti3 {
+  left: 200px;
+}
+#konfetti,
+#konfetti2 {
+  z-index: 35;
+}
+
+#konfetti3,
+#konfetti4 {
+  animation: scrollDown 15s linear infinite;
+  transform: rotateY(180deg);
+  z-index: 29;
+}
+
+#konfetti2 {
+  left: -200px;
+  top: -860.133px;
+  animation-delay: 5s;
+}
+
+#konfetti4 {
+  left: 200px;
+  top: -860.133px;
+  animation-delay: 7.5s;
+}
+
+@keyframes scrollDown {
+  0% {
+    top: -860.133px; /* Start position */
+  }
+  100% {
+    top: 700px; /* End position */
+  }
+}
+
+#instruction_garden {
+  left: 950px;
+  top: 250px;
+  position: absolute;
+  z-index: 100;
+}
+
+#dialogWindow_garden {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  word-wrap: break-word;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  z-index: 100;
+  animation: 1.5s fadeInUp;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#diaBild_garden {
+  width: 800px;
+  height: 300px;
+}
+
+#intro_text_garden {
+  position: absolute;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: nunito;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(../fonts/Nunito-Medium.ttf);
+}
+
+#exitGame_garden {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 680px;
+  top: 650px;
+  z-index: 120;
+}

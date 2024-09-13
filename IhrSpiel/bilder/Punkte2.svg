@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.89 73.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f39200;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f16fa8;
+      }
+
+      .cls-3 {
+        fill: #f9e112;
+      }
+    </style>
+  </defs>
+  <g id="BriefeSchreiben">
+    <circle class="cls-3" cx="5.49" cy="68.04" r="5.49"/>
+    <circle class="cls-2" cx="5.49" cy="38.21" r="3.98"/>
+    <circle class="cls-1" cx="42.63" cy="62.55" r="3.98"/>
+    <circle class="cls-3" cx="44.63" cy="41.38" r="2.82"/>
+    <circle class="cls-1" cx="60.08" cy="68.04" r="2.82"/>
+    <circle class="cls-1" cx="13.89" cy="45.41" r="2.82"/>
+    <circle class="cls-1" cx="18.08" cy="2.82" r="2.82"/>
+  </g>
+</svg>

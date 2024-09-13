@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minispiel_Garden</title>
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+    </style>
+
+    <!-- CSS Datei -->
+    <link rel="stylesheet" type="text/css" href="css/layout_garden.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_market.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_deko.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_karte.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_start_page.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_toDo_liste.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_post.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_memory.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_keller.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_haus_eingang.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout_party.css" />
+  </head>
+
+  <body>
+    <!--  Start Page -->
+    <div id="start_page">
+      <video width="1400px" loop muted autoplay>
+        <source src="bilder/startik.webm" type="video/webm" />
+      </video>
+
+      <div id="start_button">
+        <img id="start_button_dunk" src="bilder/button_dunk.png" />
+        <div id="text_start_button">Start</div>
+      </div>
+    </div>
+    <!-- Choose Character Page -->
+    <div id="choose_page">
+      <img id="choose_natti" src="bilder/natti_choose_noframe.png" />
+      <img id="choose_paula" src="bilder/paula_choose_noframe.png" />
+      <img id="natti_auswahl_button" src="bilder/natti_auswählen.png" />
+      <img id="paula_auswahl_button" src="bilder/paula_auswählen.png" />
+      <div id="text_natti_auswahl">
+        <span class="extra_style">Alter:</span> 12 <br />
+        <span class="extra_style"> Lieblingsessen:</span> Milch mit Keks <br />
+        <span class="extra_style">Lieblingsfarbe: </span>Lila <br />
+        <span class="extra_style">Charakter:</span> gesprächig, optimistisch,
+        freundlich <br />
+        <span class="extra_style"> Hobbys:</span> Inlineskating, Eiskunst,
+        Tanzen, mit den Hunden spielen
+      </div>
+      <div id="text_paula_auswahl">
+        <span class="extra_style"> Alter:</span> 11<br />
+        <span class="extra_style"> Lieblingsessen:</span> Spinatlasagne <br />
+        <span class="extra_style"> Lieblingsfarbe:</span> Grün <br />
+        <span class="extra_style">Charakter:</span> introvertiert, kreativ
+        <br />
+        <span class="extra_style">Hobbys: </span>Malen, Klavier spielen
+      </div>
+    </div>
+    <!-- Intro with Natti or Paula -->
+    <div id="natti_event">
+      <div id="scene_1">
+        <img
+          class="scene_intro"
+          id="scene1_pic"
+          src="bilder/Introszene1Natti.svg"
+        />
+        <div class="lets_go" id="weiter">Guten Morgen</div>
+      </div>
+
+      <div id="scene_2">
+        <img
+          class="scene_intro"
+          id="scene2_pic"
+          src="bilder/Introszene2Natti.svg"
+        />
+        <img id="kalender_bild" src="bilder/Kalender.png" />
+        <div id="guten_morgen_natti">
+          <video id="video_scene2" width="450" height="450" loop muted autoplay>
+            <source src="bilder/natti_comments.webm" type="video/webm" />
+          </video>
+
+          <div id="dialogWindow_scene_2">
+            <img src="bilder/DialogWindow3.png" alt="" id="Bild_scene_2" />
+
+            <div id="text_scene_2">
+              Guten Morgen! <br />
+              Bevor wir in den Tag starten, lass uns erst mal einen Blick auf
+              den Kalender werfen.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="scene_3">
+        <div id="scene3_calender_natti">
+          <video id="video_scene3" width="450" height="450" loop muted autoplay>
+            <source src="bilder/natti_in_shock.webm" type="video/webm" />
+          </video>
+
+          <div id="dialogWindow_scene_3">
+            <img src="bilder/DialogWindow_2.png" alt="" id="Bild_scene_3" />
+
+            <div id="text_scene_3">
+              Oh nein! Mein Hund Maycha hat morgen Geburtstag!<br />
+              Ich habe das ganz vergessen. <br />
+
+              Wie soll ich denn heute noch eine ganze Party auf die Beine
+              stellen? Kannst du mir dabei helfen?
+            </div>
+          </div>
+        </div>
+        <img
+          class="scene_intro"
+          id="scene_pic3"
+          src="bilder/scene3_natti.svg"
+        />
+        <div id="ja_helfen">Ja, gerne!</div>
+      </div>
+      <div id="scene_4">
+        <div id="scene4_to_do_natti">
+          <video id="video_scene4" width="450" height="450" loop muted autoplay>
+            <source src="bilder/natti_comments.webm" type="video/webm" />
+          </video>
+
+          <div id="dialogWindow_scene_4">
+            <img src="bilder/DialogWindow_2.png" alt="" id="Bild_scene_4" />
+
+            <div id="text_scene_4">
+              Super! Zusammen schaffen wir das bestimmt! <br />
+              Hier ist eine To-Do Liste mit allen Sachen, die noch erledigt
+              werden müssen. <br />
+            </div>
+          </div>
+        </div>
+
+        <img id="toDo_liste" src="bilder/to_do_liste.png" />
+        <img class="scene_intro" src="bilder/scene3_natti.svg" />
+        <div class="lets_go" id="lets_go">Let's go!</div>
+      </div>
+    </div>
+
+    <!-- Main Map -->
+    <div id="map">
+      <div id="map_sky"></div>
+      <video id="party_button" width="450" height="450" loop muted autoplay>
+        <source src="bilder/party_button.webm" type="video/webm" />
+      </video>
+      <div id="sonne"><img id="sonne_img" src="bilder/sonne.svg" /></div>
+      <!--  <div id="wolken"><img id="wolken_svg" src="bilder/wolken.svg" /></div> -->
+      <!-- Layer 3 (ganz hinten) -->
+      <!-- <img id="karte_layer3" src="bilder/karte_layer3.svg" />
+
+       Layer 2 (hinter der Hauptkarte) 
+      <img id="karte_layer2" src="bilder/karte_layer2.svg" /> -->
+
+      <!-- Hauptkarte -->
+
+      <div id="karte">
+        <div id="instr_walking">
+          Drücke die Pfeiltasten nach links und rechts, um dich zu bewegen.
+          <br />
+          Klicke auf einen Ort, den du besuchen möchtest. <br />
+          Klicke auf das Haus oben links, um zur Hauptkarte zurückzukehren.
+          <br />
+          Viel Spaß!
+        </div>
+        <div id="alles_klar_button">Alles klar!</div>
+        <img id="may" src="bilder/maycha.svg" />
+        <img id="lui" src="bilder/luigi.svg" />
+        <img id="karte_herz" src="bilder/herz.svg" />
+        <img id="karte_img" src="bilder/karte.svg" />
+        <!-- Häuser (liegen vor der Hauptkarte) -->
+        <div class="house">
+          <img id="house_farm" src="bilder/house_farm.png" />
+        </div>
+        <div class="house">
+          <img id="house_post" src="bilder/post.png" />
+        </div>
+        <div class="house">
+          <img id="deko_house" src="bilder/Deko Shop_karte.png" />
+        </div>
+        <div class="house">
+          <img id="markt_house" src="bilder/markt_karte.png" />
+        </div>
+        <div class="house">
+          <img id="garden_house" src="bilder/garden_karte.png" />
+
+          <!-- Wolken (liegen über allem) -->
+
+          <!-- Charakter -->
+        </div>
+        <div class="house">
+          <video id="herr_Bröckelmann" loop muted autoplay>
+            <source src="bilder/Bröckelmann.webm" type="video/webm" />
+          </video>
+        </div>
+        <div id="comment_lost"></div>
+        <img id="comment_lost_png" src="bilder/DialogWindow_2.png" />
+        <div id="comment_lost_ja">Ja!</div>
+      </div>
+      <div id="character_walk">
+        <img id="character_walkImg" src="bilder/natti.svg" />
+      </div>
+    </div>
+
+    <button id="backToMenu_button">
+      <img id="backToMenu_icon" src="bilder/zurück_white.svg" />
+      <div id="text_backToMenu_button">Karte</div>
+    </button>
+
+    <div id="weiter_button">weiter</div>
+
+    <!-- Minispiel_Garden -->
+    <div id="Minispiel_Garden" style="display: none">
+      <div id="table_garden">
+        <div id="text_garden"></div>
+        <div id="nummber_of_fruits"></div>
+      </div>
+      <div id="spielfeld_garden">
+        <div id="basket">
+          <img src="bilder/basket.svg" alt="basket" id="basket_bild" />
+        </div>
+        <div id="fruits">
+          <div id="birne">
+            <img src="bilder/birne.svg" alt="" id="20" />
+          </div>
+          <div id="apfel">
+            <img src="bilder/apfel.svg" alt="" id="5" />
+          </div>
+          <div id="aprikose">
+            <img src="bilder/aprikose.svg" alt="" id="10" />
+          </div>
+          <div id="pflaume"><img src="bilder/pflaume.svg" alt="pflaume" /></div>
+          <div id="cherry"><img src="bilder/cherry.svg" alt="cherry" /></div>
+        </div>
+      </div>
+
+      <div id="intro_garden">
+        <div id="instruction_garden">
+          <video
+            id="garden_comment_np"
+            width="450"
+            height="450"
+            loop
+            muted
+            autoplay
+          >
+            <source src="bilder/natti_comments.webm" type="video/webm" />
+          </video>
+        </div>
+        <div id="dialogWindow_garden">
+          <img src="bilder/DialogWindow.png" alt="" id="diaBild_garden" />
+          <div id="intro_text_garden">
+            In meinem Garten kann ich Obst mit meinem Korb sammeln. Kannst du
+            mir dabei helfen? <br />
+            Benutze die Tasten &#60; und &#62; um den Korb zu bewegen. <br />
+            Fange das Obst, welches rechts oben angezeigt wird. <br />
+            Wenn du bereit bist, klicke auf den Korb.
+          </div>
+        </div>
+      </div>
+
+      <div id="well_done">
+        <img src="bilder/confetti.svg" alt="Scrolling Image" id="konfetti" />
+        <img src="bilder/confetti.svg" alt="Scrolling Image" id="konfetti2" />
+        <img src="bilder/confetti.svg" alt="Scrolling Image" id="konfetti3" />
+        <img src="bilder/confetti.svg" alt="Scrolling Image" id="konfetti4" />
+        <div id="well">Well Done!</div>
+
+        <img
+          src="bilder/well_done_garden_basket.svg"
+          alt=""
+          id="basketOnTable"
+        />
+        <img
+          src="bilder/well_done_garden_background.svg"
+          alt=""
+          id="background_wall"
+        />
+      </div>
+    </div>
+    <!-- Minispiel Market -->
+    <div id="Minispiel_Market" style="display: none">
+      <div id="spielfeld_market">
+        <div id="market_front">
+          <img src="bilder/market_front.svg" alt="" id="market_front_bild" />
+          <div id="lottie"></div>
+          <div id="sky">
+            <img src="bilder/sky.png" alt="" id="sky_png" />
+            <img src="bilder/sky2.png" alt="" id="sky_png2" />
+          </div>
+          <div id="bee">
+            <video width="60px" height="auto" loop muted autoplay>
+              <source src="bilder/bee_anim.webm" type="video/webm" />
+            </video>
+          </div>
+          <div id="bee2">
+            <video width="60px" height="auto" loop muted autoplay>
+              <source src="bilder/bee_2.webm" type="video/webm" />
+            </video>
+          </div>
+        </div>
+
+        <div id="dialogWindow">
+          <img src="bilder/DialogWindow.png" alt="" id="d_window" />
+          <div id="seller_text">
+            Hallo! Ich kaufe und verkaufe Obst und Gemüse. <br />
+            Hast du etwas Obst für mich?
+          </div>
+        </div>
+
+        <div id="nein">
+          <img src="bilder/button_dunk.png" alt="" id="button_dunk" />
+          <div id="nein_text">Nein, leider nicht</div>
+        </div>
+
+        <div id="ja">
+          <img src="bilder/button_dunk.png" alt="" id="button_dunk_ja" />
+          <div id="ja_text">Ja, ich möchte es verkaufen</div>
+        </div>
+
+        <div id="gerne">
+          <img src="bilder/button_dunk.png" alt="" id="button_dunk_gerne" />
+          <div id="gerne_text">Gerne!</div>
+        </div>
+
+        <div id="board">
+          <img src="bilder/Board.png" alt="" id="board_market" />
+          <div id="textOnBoard"></div>
+          <input type="text" id="price" minlength="1" maxlength="2" size="1" />
+          <button id="check_market">Check</button>
+        </div>
+
+        <div id="motivation">
+          <img src="bilder/motivationGreen.png" alt="" id="mot_window" />
+          <div id="mot_text">Well Done!</div>
+        </div>
+      </div>
+      <div id="well_done_market" style="display: none">
+        <img
+          src="bilder/well_done_market_tisch.svg"
+          alt=""
+          id="well_done_tisch"
+        />
+        <img
+          src="bilder/confi_geld.svg"
+          alt="Scrolling Image"
+          id="konfi_geld"
+        />
+        <img
+          src="bilder/confi_geld.svg"
+          alt="Scrolling Image"
+          id="konfi_geld2"
+        />
+        <img
+          src="bilder/confi_geld.svg"
+          alt="Scrolling Image"
+          id="konfi_geld3"
+        />
+        <img
+          src="bilder/confi_geld.svg"
+          alt="Scrolling Image"
+          id="konfi_geld4"
+        />
+        <div id="well_done_text_market">Well Done!</div>
+      </div>
+    </div>
+
+    <!-- Minispiel Dekoshop -->
+    <div id="Minispiel_Dekoshop" style="display: none">
+      <div id="spielfeld_dekoshop">
+        <div id="shop_desk">
+          <img src="bilder/tisch_deko.svg" alt="" id="tisch_deko" />
+        </div>
+        <div id="deko_seller">
+          <video
+            width="250"
+            height="auto"
+            loop
+            muted
+            autoplay
+            id="dekoSeller_vid"
+          >
+            <source src="bilder/seller_deko.webm" type="video/webm" />
+          </video>
+        </div>
+
+        <img src="bilder/DialogWindow.png" id="dialog_bubble_deko" />
+        <div id="text_deko"></div>
+
+        <div id="reply_deko">
+          Ja, für die Geburtstagsparty meines Haustieres!
+        </div>
+
+        <div id="pina">
+          <video width="350" height="auto" loop muted autoplay id="pina_vid">
+            <source src="bilder/pina.webm" type="video/webm" />
+          </video>
+        </div>
+        <div id="ballons_inside">
+          <video
+            width="350"
+            height="auto"
+            loop
+            muted
+            autoplay
+            id="ballonsInside_vid"
+          >
+            <source src="bilder/ballons_inside.webm" type="video/webm" />
+          </video>
+        </div>
+        <img src="bilder/schal.png" id="schal" />
+      </div>
+    </div>
+
+    <!-- Minispiel Post -->
+    <div id="Minispiel_Post">
+      <div id="shop">
+        <div id="dialogWindow_post">
+          <img src="bilder/sprechblase.svg" alt="" id="dia_window" />
+          <div id="seller_text_post">
+            Hallo! Wenn du etwas schreiben möchtest, dann nimm dir einen Zettel
+            und Stifte.
+          </div>
+        </div>
+
+        <div id="person"></div>
+        <img src="bilder/tisch.svg" id="tisch" />
+        <img src="bilder/hintergrund.svg" id="hintergrund" />
+      </div>
+      <div id="quiz">
+        <div id="background_post">
+          <img src="bilder/Punkte.svg" id="punkte" />
+          <img src="bilder/Punkte2.svg" id="punkte2" />
+          <img src="bilder/Karte2.svg" id="karte_post" class="ende" />
+        </div>
+        <div id="ui">
+          <div id="Ueberschrift">
+            <h1 class="freeman-regular">Fülle die Lücken!</h1>
+            <div class="freeman-regular" id="Punkteanzeige">Punkte: 0/12</div>
+          </div>
+          <div id="Frage">?</div>
+          <div id="bild"><img alt="leer" /></div>
+          <div id="Antworten">
+            <button id="Antwort1" class="antwort">1</button>
+            <button id="Antwort2" class="antwort">2</button>
+          </div>
+          <div id="feedback" class="freeman-regular"></div>
+          <div id="fragentyp" class="freeman-regular"></div>
+          <img src="bilder/stift.svg" id="stift" />
+          <img src="bilder/stift2.svg" id="stift2" />
+        </div>
+      </div>
+      <div id="buttons_post">
+        <button id="nochmal">
+          <img id="nochmalpfeil" src="bilder/nochmal.svg" />Nochmal
+        </button>
+      </div>
+
+      <img src="bilder/confetti.svg" alt="Scrolling Image" id="konfetti_post" />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti2_post"
+      />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti3_post"
+      />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti4_post"
+      />
+    </div>
+
+    <!--   Haus Eingang -->
+    <div id="haus_eingang">
+      <img id="eingangHaus" src="bilder/verbindungsraum.svg" />
+      <img id="eingangKarte" src="bilder/EingangKarte.svg" />
+      <img id="keller_start" src="bilder/EingangKeller.svg" />
+      <img id="memory_start" src="bilder/EingangKueche.svg" />
+      <img id="eingangLampe" src="bilder/EingangLampe.svg" />
+      <div id="eingangkellersign" class="eingangsign">
+        Keller
+        <img src="bilder/Pfeil.svg" />
+      </div>
+      <div id="eingangkuechesign" class="eingangsign">
+        <img src="bilder/Pfeil.svg" />
+        Küche
+      </div>
+    </div>
+    <!--   Minispiel House_keller -->
+    <div id="Minispiel_keller">
+      <img src="bilder/kellerHintergrund.png" id="keller_hintergrund" />
+      <div id="keller_spielfeld">
+        <img
+          id="keller_cursor-image"
+          src="bilder/cursor.svg"
+          alt="Cursor Image"
+        />
+        <div id="keller_Ueberschrift">
+          <h1 class="freeman-regular" id="keller_h1">Finde die Objekte!</h1>
+          <div class="freeman-regular" id="keller_Punkteanzeige">
+            Punkte: 0/10
+          </div>
+        </div>
+        <div id="keller_Frage">?</div>
+        <div id="keller_feedback" class="freeman-regular"></div>
+        <div id="keller_lamp" class="object">
+          <img class="objectimg" src="bilder/lamp.png" />
+        </div>
+        <div id="keller_radio" class="object">
+          <img class="objectimg" src="bilder/radio.png" />
+        </div>
+        <div id="keller_games" class="object">
+          <img class="objectimg" src="bilder/games.png" />
+        </div>
+        <div id="keller_ball" class="object">
+          <img class="objectimg" src="bilder/ball.png" />
+        </div>
+        <div id="keller_glasses" class="object">
+          <img class="objectimg" src="bilder/glasses.png" />
+        </div>
+        <div id="keller_poster" class="object">
+          <img class="objectimg" src="bilder/poster.png" />
+        </div>
+        <div id="keller_speaker" class="object">
+          <img class="objectimg" src="bilder/speaker.png" />
+        </div>
+        <div id="keller_jars" class="object">
+          <img class="objectimg" src="bilder/jars.png" />
+        </div>
+
+        <div id="keller_dartboard" class="object">
+          <img class="objectimg" src="bilder/dartboard.png" />
+        </div>
+        <div id="keller_forksandknives" class="object">
+          <img class="objectimg" src="bilder/forksandknives.png" />
+        </div>
+        <div id="keller_stringlights" class="object">
+          <img class="objectimg" src="bilder/stringlights.png" />
+        </div>
+        <div id="keller_candles" class="object">
+          <img class="objectimg" src="bilder/candles.png" />
+        </div>
+        <div id="keller_chips" class="object">
+          <img class="objectimg" src="bilder/chips.png" />
+        </div>
+
+        <div id="keller_microphones" class="object">
+          <img class="objectimg" src="bilder/microphones.png" />
+        </div>
+        <div id="keller_fan" class="object">
+          <img class="objectimg" src="bilder/fan.png" />
+        </div>
+        <div id="keller_toiletpaper" class="object">
+          <img class="objectimg" src="bilder/toiletpaper.png" />
+        </div>
+        <div id="keller_soda" class="object">
+          <img class="objectimg" src="bilder/soda.png" />
+        </div>
+        <div id="keller_discoball" class="object">
+          <img class="objectimg" src="bilder/discoball.png" />
+        </div>
+        <div id="keller_regal0" class="keller_regal non-clickable">
+          <img src="bilder/regal0.png" />
+        </div>
+        <div id="keller_regal1" class="keller_regal non-clickable">
+          <img src="bilder/regal1.png" />
+        </div>
+        <div id="keller_regal2" class="keller_regal non-clickable">
+          <img src="bilder/regal2.png" />
+        </div>
+        <div id="keller_plates" class="object">
+          <img class="objectimg" src="bilder/plates.png" />
+        </div>
+        <div id="keller_paint" class="object">
+          <img class="objectimg" src="bilder/paint.png" />
+        </div>
+        <div id="keller_regal3" class="keller_regal non-clickable">
+          <img src="bilder/regal3.png" />
+        </div>
+        <div class="keller_end">
+          <img id="keller_winning" src="bilder/keller_winning.png" />
+          <img id="keller_losing" src="bilder/keller_losing.png" />
+          <img id="keller_spinne" src="bilder/keller_spinne.png" />
+        </div>
+
+        <div id="nochmal_keller">Nochmal</div>
+        <img
+          src="bilder/confetti.svg"
+          alt="Scrolling Image"
+          id="keller_konfetti"
+        />
+        <img
+          src="bilder/confetti.svg"
+          alt="Scrolling Image"
+          id="keller_konfetti2"
+        />
+        <img
+          src="bilder/confetti.svg"
+          alt="Scrolling Image"
+          id="keller_konfetti3"
+        />
+        <img
+          src="bilder/confetti.svg"
+          alt="Scrolling Image"
+          id="keller_konfetti4"
+        />
+      </div>
+    </div>
+    <!--   Minispiel House_memory -->
+    <div id="Minispiel_memory">
+      <img src="bilder/Küche_1.png" alt="Kueche" id="kueche" class="kueche" />
+      <video id="stove" loop muted autoplay>
+        <source src="bilder/stove.webm" type="video/webm" />
+      </video>
+      <img id="ofen" src="bilder/KuecheOfen.svg" class="kueche" />
+      <img id="herd" src="bilder/KuecheTopf.svg" class="kueche" />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti_memory"
+      />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti2_memory"
+      />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti3_memory"
+      />
+      <img
+        src="bilder/confetti.svg"
+        alt="Scrolling Image"
+        id="konfetti4_memory"
+      />
+      <img src="bilder/counter.svg" id="tisch_memory" />
+      <div id="kerze" class="ende">
+        <img src="bilder/Kerze.gif" id="kerze1" alt="Kerzenanimation" />
+        <img src="bilder/Kerze.gif" id="kerze2" alt="Kerzenanimation" />
+        <img src="bilder/Kerze.gif" id="kerze3" alt="Kerzenanimation" />
+        <img src="bilder/Kerze.gif" id="kerze4" alt="Kerzenanimation" />
+        <img src="bilder/Kerze.gif" id="kerze5" alt="Kerzenanimation" />
+      </div>
+      <img src="bilder/cake.svg" id="kuchen" />
+
+      <!-- <div id="nochmal_memory">Nochmal</div> -->
+
+      <div id="Ueberschrift_memory">
+        <h1>Finde die Paare!</h1>
+        <div id="Punkteanzeige_memory">Punkte: 0</div>
+      </div>
+
+      <div class="reihe" id="reihe1">
+        <img id="karte1" class="karte" src="bilder/back.svg" />
+        <img id="karte2" class="karte" src="bilder/back.svg" />
+        <img id="karte3" class="karte" src="bilder/back.svg" />
+        <img id="karte4" class="karte" src="bilder/back.svg" />
+      </div>
+      <div class="reihe" id="reihe2">
+        <img id="karte5" class="karte" src="bilder/back.svg" />
+        <img id="karte6" class="karte" src="bilder/back.svg" />
+        <img id="karte7" class="karte" src="bilder/back.svg" />
+        <img id="karte8" class="karte" src="bilder/back.svg" />
+      </div>
+      <div class="reihe" id="reihe3">
+        <img id="karte9" class="karte" src="bilder/back.svg" />
+        <img id="karte10" class="karte" src="bilder/back.svg" />
+        <img id="karte11" class="karte" src="bilder/back.svg" />
+        <img id="karte12" class="karte" src="bilder/back.svg" />
+      </div>
+    </div>
+    <!-- to-do-list -->
+    <div id="todolist">
+      <span id="todo">Aufgaben:</span>
+      <ul class="todolist">
+        <li><img src="bilder/checkbox.svg" id="todoErnte" />Obst ernten</li>
+        <li>
+          <img src="bilder/checkbox.svg" id="todoEinladung" />Einladungen
+          verschicken
+        </li>
+        <li><img src="bilder/checkbox.svg" id="todoMarkt" />Obst verkaufen</li>
+        <li><img src="bilder/checkbox.svg" id="todoKochen" />Kochen</li>
+        <li><img src="bilder/checkbox.svg" id="todoDeko" />Deko kaufen</li>
+        <li>
+          <img src="bilder/checkbox.svg" id="todoKeller" />Sachen aus dem Keller
+          holen
+        </li>
+      </ul>
+    </div>
+    <!-- Inventar List -->
+    <div id="inventarlist">
+      <h2 id="inventarh2">Inventar:</h2>
+      <ul class="inventarlist">
+        <li id="inventarErnte">
+          <img src="bilder/apfel.svg" alt="Apple icon" />
+          Obst
+        </li>
+        <li id="inventarEinladung">
+          <img src="bilder/karte2.svg" alt="Invitation card icon" />
+          Einladungen
+        </li>
+        <li id="inventarGeld">
+          <img src="bilder/geldInventar.svg" alt="Money icon" />
+          Geld
+        </li>
+        <li id="inventarKochen">
+          <img src="bilder/cake.svg" alt="Cake icon" />
+          Essen
+        </li>
+        <li id="inventarDeko">
+          <img src="bilder/dekoInventar.svg" alt="Decoration icon" />
+          Deko
+        </li>
+        <li id="inventarKeller">
+          <img src="bilder/radio.svg" alt="Party items icon" />
+          Partysachen
+        </li>
+        <li id="inventarSchal">
+          <img src="bilder/schal.png" alt="Scarf icon" />
+          Schal
+        </li>
+        <li id="inventarLeer">Leer</li>
+      </ul>
+    </div>
+
+    <!--  Party -->
+    <div id="partyEnde">
+      <div id="party">
+        <video width="1400" height="auto" loop muted autoplay id="party_vid">
+          <source src="bilder/party_ohne_Bröckelmann.webm" type="video/webm" />
+        </video>
+      </div>
+
+      <div id="partyKerze">
+        <img
+          src="bilder/Kerze.gif"
+          id="partyKerze1"
+          class="partyKerze"
+          alt="Kerzenanimation"
+        />
+        <img
+          src="bilder/Kerze.gif"
+          id="partyKerze2"
+          class="partyKerze"
+          alt="Kerzenanimation"
+        />
+        <img
+          src="bilder/Kerze.gif"
+          id="partyKerze3"
+          class="partyKerze"
+          alt="Kerzenanimation"
+        />
+        <img
+          src="bilder/Kerze.gif"
+          id="partyKerze4"
+          class="partyKerze"
+          alt="Kerzenanimation"
+        />
+        <img
+          src="bilder/Kerze.gif"
+          id="partyKerze5"
+          class="partyKerze"
+          alt="Kerzenanimation"
+        />
+      </div>
+
+      <div id="final_word">
+        <span id="gewonnen_span">Du hast gewonnen!</span> <br />
+        <p>Danke für deine Hilfe! <br /></p>
+        <p>
+          Game creators: <br />
+          Paula Reichelt, Nataliia Soloviova <br />
+        </p>
+        <p>Dozent: <br />Herr Bröckelmann</p>
+        <button id="neustart">Spiel neu starten</button>
+      </div>
+    </div>
+
+    <!-- sound -->
+    <div id="sound"><img src="bilder/nosound.svg" /></div>
+    <audio id="backgroundAudio" autoplay>
+      <source src="sound/musik.mp3" type="audio/mpeg" loop />
+    </audio>
+
+    <!-- JavaScripts -->
+    <script>
+      var tID;
+      function animateScript() {
+        var position = 0;
+        const interval = 50;
+        tID = setInterval(() => {
+          document.getElementById(
+            "lottie"
+          ).style.backgroundPosition = `-${position}px 0px`;
+
+          if (position < 54236) {
+            position = position + 596;
+          } else {
+            position = 0;
+          }
+        }, interval);
+      }
+
+      animateScript();
+    </script>
+
+    <script
+      src="https://cdnjs.com/libraries/bodymovin"
+      type="text/javascript"
+    ></script>
+
+    <!-- zuerst die jQuery-Bibliothek -->
+    <script type="text/javascript" src="js/minispiel_garden.js"></script>
+    <script type="text/javascript" src="js/party.js"></script>
+    <script type="text/javascript" src="js/Minispiel_memory.js"></script>
+    <script type="text/javascript" src="js/minispiel_market.js"></script>
+    <script type="text/javascript" src="js/minispiel_deko.js"></script>
+    <script type="text/javascript" src="js/karte.js"></script>
+    <script type="text/javascript" src="js/start_page.js"></script>
+    <script type="text/javascript" src="js/toDo_liste.js"></script>
+    <script type="text/javascript" src="js/minispiel_post.js"></script>
+    <script type="text/javascript" src="js/haus_eingang.js"></script>
+    <script type="text/javascript" src="js/Minispiel_keller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.js"></script>
+  </body>
+</html>

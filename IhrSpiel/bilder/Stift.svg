@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.63 199.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #80b0c1;
+      }
+
+      .cls-4 {
+        fill: none;
+        opacity: .26;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #ddc69f;
+      }
+    </style>
+  </defs>
+  <g id="BriefeSchreiben">
+    <g>
+      <g>
+        <rect class="cls-2" x="33.44" y="32.15" width="15.83" height="169.53" transform="translate(43.94 -7.07) rotate(20.67)"/>
+        <polygon class="cls-2" points="83.63 4.89 63.88 34.82 78.69 40.41 83.63 4.89"/>
+        <polygon class="cls-2" points="81.5 20.18 83.63 4.89 75.12 17.78 81.5 20.18"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="29.42" y="27.46" width="15.83" height="169.53" transform="translate(42.03 -5.95) rotate(20.67)"/>
+        <polygon class="cls-3" points="79.6 .2 59.85 30.13 74.66 35.72 79.6 .2"/>
+        <polygon class="cls-1" points="77.48 15.49 79.6 .2 71.1 13.09 77.48 15.49"/>
+      </g>
+      <polyline class="cls-4" points="5.3 190.05 65.55 32.28 79.6 .2"/>
+    </g>
+  </g>
+</svg>

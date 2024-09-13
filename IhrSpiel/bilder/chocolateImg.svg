@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153.5 153.5">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .75;
+      }
+
+      .cls-1, .cls-2 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-3 {
+        fill: #6d301b;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-2, .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-4, .cls-2 {
+        fill: #ececec;
+      }
+
+      .cls-12 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #ab2723;
+      }
+
+      .cls-6 {
+        fill: #8a4327;
+      }
+
+      .cls-7 {
+        fill: #da362d;
+      }
+
+      .cls-13 {
+        opacity: .23;
+      }
+
+      .cls-14 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-8 {
+        fill: #4e7eb3;
+      }
+
+      .cls-9 {
+        fill: #a16654;
+      }
+
+      .cls-10 {
+        fill: #18487d;
+      }
+
+      .cls-15 {
+        mask: url(#mask);
+      }
+
+      .cls-11 {
+        fill: #e45f56;
+      }
+    </style>
+    <filter id="luminosity-invert" x="-2.35" y="-2.17" width="158" height="158" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="-2.35" y="-2.17" width="158" height="158" maskUnits="userSpaceOnUse">
+      <g class="cls-14">
+        <image width="158" height="158" transform="translate(-2.35 -2.17)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-12">
+    <g id="Ebene_2" data-name="Ebene 2">
+      <g id="Memory">
+        <g>
+          <rect class="cls-8" y="0" width="153.5" height="153.5" rx="6.37" ry="6.37"/>
+          <g class="cls-13">
+            <rect class="cls-10" width="153.5" height="153.5" rx="6.37" ry="6.37"/>
+            <g class="cls-15">
+              <g class="cls-1">
+                <rect class="cls-10" width="153.5" height="153.5" rx="6.37" ry="6.37"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="42.28 41.4 42.28 18.42 65.26 18.42 42.28 41.4"/>
+                <polygon class="cls-3" points="65.26 18.42 65.26 41.4 42.28 41.4 65.26 18.42"/>
+              </g>
+              <rect class="cls-6" x="45.38" y="21.52" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="65.26 41.4 65.26 18.42 88.24 18.42 65.26 41.4"/>
+                <polygon class="cls-3" points="88.24 18.42 88.24 41.4 65.26 41.4 88.24 18.42"/>
+              </g>
+              <rect class="cls-6" x="68.36" y="21.52" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="88.24 41.4 88.24 18.42 111.22 18.42 88.24 41.4"/>
+                <polygon class="cls-3" points="111.22 18.42 111.22 41.4 88.24 41.4 111.22 18.42"/>
+              </g>
+              <rect class="cls-6" x="91.34" y="21.52" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="42.28 64.38 42.28 41.4 65.26 41.4 42.28 64.38"/>
+                <polygon class="cls-3" points="65.26 41.4 65.26 64.38 42.28 64.38 65.26 41.4"/>
+              </g>
+              <rect class="cls-6" x="45.38" y="44.5" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="65.26 64.38 65.26 41.4 88.24 41.4 65.26 64.38"/>
+                <polygon class="cls-3" points="88.24 41.4 88.24 64.38 65.26 64.38 88.24 41.4"/>
+              </g>
+              <rect class="cls-6" x="68.36" y="44.5" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="88.24 64.38 88.24 41.4 111.22 41.4 88.24 64.38"/>
+                <polygon class="cls-3" points="111.22 41.4 111.22 64.38 88.24 64.38 111.22 41.4"/>
+              </g>
+              <rect class="cls-6" x="91.34" y="44.5" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="42.28 87.36 42.28 64.38 65.26 64.38 42.28 87.36"/>
+                <polygon class="cls-3" points="65.26 64.38 65.26 87.36 42.28 87.36 65.26 64.38"/>
+              </g>
+              <rect class="cls-6" x="45.38" y="67.48" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="65.26 87.36 65.26 64.38 88.24 64.38 65.26 87.36"/>
+                <polygon class="cls-3" points="88.24 64.38 88.24 87.36 65.26 87.36 88.24 64.38"/>
+              </g>
+              <rect class="cls-6" x="68.36" y="67.48" width="16.78" height="16.78"/>
+            </g>
+            <g>
+              <g>
+                <polygon class="cls-9" points="88.24 87.36 88.24 64.38 111.22 64.38 88.24 87.36"/>
+                <polygon class="cls-3" points="111.22 64.38 111.22 87.36 88.24 87.36 111.22 64.38"/>
+              </g>
+              <rect class="cls-6" x="91.34" y="67.48" width="16.78" height="16.78"/>
+            </g>
+            <rect class="cls-5" x="42.28" y="78.69" width="68.94" height="56.39"/>
+            <polygon class="cls-11" points="42.28 135.08 42.28 75.87 92.68 84.68 42.28 135.08"/>
+            <rect class="cls-7" x="45.38" y="78.69" width="62.73" height="53.85"/>
+            <path class="cls-2" d="m42.28,89.96c.42.14,48.47-4.12,48.47-4.12l-48.47-19.28v23.4Z"/>
+            <path class="cls-4" d="m42.28,89.96c.42.14,68.94-11.28,68.94-11.28l-68.94-12.12v23.4Z"/>
+            <polygon class="cls-2" points="42.28 66.56 86.38 94.36 111.22 78.69 42.28 66.56"/>
+            <polygon class="cls-4" points="42.28 66.56 89.33 92.5 111.22 78.69 42.28 66.56"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

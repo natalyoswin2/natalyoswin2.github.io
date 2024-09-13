@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 355.4 2444.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #908b7c;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #cbcbcb;
+      }
+
+      .cls-4 {
+        fill: #cec7c1;
+      }
+
+      .cls-5 {
+        fill: #bea598;
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_12);
+        stroke: #696260;
+        stroke-miterlimit: 10;
+        stroke-width: 2.6px;
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_9);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-2" points="28.6 2371.4 332.64 2048.38 332.64 446.31 28.6 181.81 28.6 2371.4"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_9" data-name="Unbenannter Verlauf 9" x1="-453.91" y1="1216.54" x2="332.64" y2="1216.54" gradientUnits="userSpaceOnUse">
+      <stop offset=".66" stop-color="#d4d2c7"/>
+      <stop offset="1" stop-color="#b1aaa3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_12" data-name="Unbenannter Verlauf 12" x1="-78.64" y1="1944.51" x2="-78.64" y2="464.68" gradientUnits="userSpaceOnUse">
+      <stop offset=".63" stop-color="#bfb4af" stop-opacity="0"/>
+      <stop offset="1" stop-color="#9e9390" stop-opacity=".5"/>
+    </linearGradient>
+  </defs>
+  <g id="Ebene_2-2" data-name="Ebene_2">
+    <g>
+      <g class="cls-8">
+        <polygon class="cls-5" points="-315.1 2192.76 3.09 2192.76 180.62 2035.67 -88.82 2035.67 -315.1 2192.76"/>
+        <rect class="cls-7" x="-453.91" y="384.71" width="786.54" height="1663.67"/>
+        <polygon class="cls-4" points="-209.35 144.45 -14.34 144.45 332.64 446.31 195.16 446.31 -209.35 144.45"/>
+        <rect class="cls-3" x="195.16" y="446.31" width="161.03" height="1638.64"/>
+        <rect class="cls-6" x="-299.23" y="464.68" width="441.19" height="1479.83"/>
+      </g>
+      <g>
+        <polygon class="cls-1" points="355.4 487.15 0 153.63 0 0 355.4 383.74 355.4 487.15"/>
+        <polygon class="cls-1" points="299.89 2086.47 355.4 2022.13 355.4 383.74 299.89 323.8 299.89 2086.47"/>
+        <polygon class="cls-1" points="33.7 2405.11 0 2444.49 0 0 33.7 36.39 33.7 2405.11"/>
+      </g>
+    </g>
+  </g>
+</svg>
